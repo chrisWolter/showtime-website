@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Agenda on IMI Showtime</title>
+    <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b4-visual-agenda/</link>
+    <description>Recent content in Visual Agenda on IMI Showtime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language><atom:link href="https://chrisWolter.github.io/showtime-website/ss23/bachelor/b4-visual-agenda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b4-visual-agenda/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b4-visual-agenda/features/</guid>
+      <description>Features Agenda Planning Our app lets you effortlessly create well-structured agendas within fixed timeframes. You can organize topics, set time limits, and ensure that meetings stay on track.
+Timekeeping With our intuitive timekeeping feature, you&amp;rsquo;ll receive real-time alerts as you approach each agenda item&amp;rsquo;s time limit. This ensures to keep everyone focused and make every minute count.
+Clear Visual Agenda Overview Our app provides a convenient visual representation of your entire meeting agenda, making it easy for you and your participants to stay oriented and informed about upcoming topics.</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b4-visual-agenda/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b4-visual-agenda/process/</guid>
+      <description>Process Our journey began with a crucial kickoff meeting, where we discussed the project&amp;rsquo;s milestones and set the schedules for their completion. During this meeting, the team collaborated to find suitable meeting days and times that would accommodate everyone&amp;rsquo;s busy schedules. In our subsequent meetings, we focused on comprehensive progress updates. We discussed the tasks we had been diligently working on and candidly addressed any challenges we encountered along the way.</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b4-visual-agenda/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b4-visual-agenda/techstack/</guid>
+      <description>Tech Stack Communication
+For the purpose of communicating with each other we used
+Zoom Teams and WhatsApp. Creative Parts
+Drafting our ideas and creating anything related to the design we used
+Figma Penpot Frontend
+Our Frontend was made with
+Ionic React Capacitor Backend
+Our backend was crafted using
+Node.js Socket.io Future Looking ahead, we envision several exciting ideas to enhance Visual Agenda, maximizing its potential and revolutionizing the meeting experience:</description>
+    </item>
+    
+  </channel>
+</rss>

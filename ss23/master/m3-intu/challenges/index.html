@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="/showtime-website/css/style.min.9b1b84f3074375c47f892a256e7ca0d8d514f5b11e02003d6e395472ae589949.css" integrity="sha256-mxuE8wdDdcR/iSolbnyg2NUU9bEeAgA9bjlUcq5YmUk=" crossorigin="anonymous">
+
+
+<script src=https://chrisWolter.github.io/showtime-website/js/title-animate.js charset="utf-8"></script>
+<script src=https://chrisWolter.github.io/showtime-website/js/semester-select.js charset="utf-8"></script>
+<script src=https://chrisWolter.github.io/showtime-website/js/secret.js charset="utf-8"></script>
+<title>IMI Showtime - HTW Berlin</title>
+<body>
+<nav class="background master">
+    <a href="https://chrisWolter.github.io/showtime-website/" class="animate-trigger"><strong>IMI<span class="light">×</span><span class="animate">ST</span></strong> <span class="light">
+
+
+
+
+
+
+    
+        23/24
+    
+
+</span></a>
+     
+    <div class = "warn">Preview Site! 
+        (with drafts)
+      <div class = "warn small">Production Site: <a href="https://showtime.f4.htw-berlin.de/">https://showtime.f4.htw-berlin.de/</a></div>
+    </div>  
+    
+    <ul>
+        <li><a href="https://chrisWolter.github.io/showtime-website/projects">Projects</a></li>
+        <li><a href="https://chrisWolter.github.io/showtime-website/schedule">Schedule</a></li>
+        <li><a href="https://chrisWolter.github.io/showtime-website/dates">Dates</a></li>
+        
+        
+        
+            
+            
+        
+        <li><a href="/showtime-website/ss23">Archive</a></li>
+        <li><a href="https://chrisWolter.github.io/showtime-website/contact">Contact</a></li>
+   </ul>
+</nav>
+
+    <div class="background master">
+        <header class="project-header">
+            <h1>
+                <span class="type">M3 Master</span>
+                Intu
+                <span class="underscore-spacer"> </span>
+            </h1>
+            <section style="text-align: right;">
+                <div class="spacer"></div>
+                
+                    <h4>Team</h4>
+                    <ul>
+                        
+                            <li>Piranavi Satkunanathan</li>
+                        
+                            <li>Martin Christian Solihin</li>
+                        
+                            <li>Alexander Brjazgunov</li>
+                        
+                            <li>Christopher Knapp</li>
+                        
+                            <li>Finja-Malin Scheltens</li>
+                        
+                            <li>Henry Ordelt</li>
+                        
+                    </ul>
+                
+                
+                    <h4>Supervision</h4>
+                    André Selmanagic
+                
+            </section>
+        </header>
+    </div>
+    <div class="project-menu desktop-menu background master">
+        <ul>
+            <li ><a href="/showtime-website/ss23/master/m3-intu/">Overview</a></li>
+            
+            <li ><a href="/showtime-website/ss23/master/m3-intu/features/">Features</a></li>
+            
+            <li ><a href="/showtime-website/ss23/master/m3-intu/process/">Process</a></li>
+            
+            <li class="active"><a href="/showtime-website/ss23/master/m3-intu/challenges/">Challenges</a></li>
+            
+            <li ><a href="/showtime-website/ss23/master/m3-intu/techstack/">Tech Stack</a></li>
+            
+            <li ><a href="/showtime-website/ss23/master/m3-intu/future/">Future</a></li>
+            
+        </ul>
+    </div>
+    <div class="project-menu mobile-menu background master">
+        <ul>
+            <li ><a href="/showtime-website/ss23/master/m3-intu/">Overview</a></li>
+            
+            <li ><a href="/showtime-website/ss23/master/m3-intu/features/">Features</a></li>
+            
+            <li ><a href="/showtime-website/ss23/master/m3-intu/process/">Process</a></li>
+            
+        </ul>
+        <input type="checkbox" id="project-menu-button">
+        <label for="project-menu-button">
+            <span></span>
+        </label>
+        <div class="dropdown-menu">
+            <ul>
+                
+                <li class="active"><a href="/showtime-website/ss23/master/m3-intu/challenges/">Challenges</a></li>
+                
+                <li ><a href="/showtime-website/ss23/master/m3-intu/techstack/">Tech Stack</a></li>
+                
+                <li ><a href="/showtime-website/ss23/master/m3-intu/future/">Future</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <main class="project">
+        
+        <section>
+    <h3>
+        
+            Research for credible Sources
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        Finding reliable sources posed its own set of challenges. While we gathered valuable information from the lecture notes, we recognized the need to seek additional sources with verifiable credibility. Hence, a lot of research has been conducted. Moreover, we aspired to enhance the transparency of the educational content we provide by incorporating a &lsquo;Sources&rsquo; button. This offers users the chance to immerse further into the subject matter, substantiating their understanding directly from the original resources.
+    </div>
+</section>
+
+<section>
+    <h3>
+        
+            Integrating Editor.js into our Knowledge Base
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        For our vision of creating a personal knowledge base by storing learning objects, we discovered the Editor.js library, which seemed perfect for our needs. However, one drawback was that it wasn&rsquo;t a React library like our project. Consequently, we encountered some challenges in using certain handy React features and had to implement workarounds. The editor itself is divided into various blocks, each representing different types like texts, headings, images, or our newly created learning object type. To incorporate our React learning objects into this editor, we had to create a new React root for each learning object. As a result, the blocks were not aware of our defined browser routes for handling navigation. Additionally, using contexts was not feasible within the blocks. To address these issues, we implemented an event bus for navigation, to which the page subscribes. When the navigation button is triggered, the editor block sends an event through the event bus.
+    </div>
+</section>
+
+<section>
+    <h3>
+        
+            Data Structure
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        Another aspect that we found challenging was defining the data structure for our learning objects. Our goal was to keep the learning objects as compact as possible to ensure maximum flexibility for users when storing them in the knowledge base. One crucial consideration was determining the level at which data retrieval should occur. We decided to retrieve the data once per learning object on each page. Essentially, the learning object acts as a container that holds all the small contents, such as text, images, and more, and it should be savable as well. To achieve this, we envisioned the contents as components that could be loaded independently of their parent (the learning object). However, we wanted to avoid redundant data retrieval for the same request.
+To address this issue, we considered implementing a cache or shared repository for the data. This would allow us to store and access the data efficiently, preventing multiple redundant requests. Unfortunately, due to time constraints, this feature concept did not make it into our final MVP.
+    </div>
+</section>
+
+<section>
+    <h3>
+        
+            Backend
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        Initially, we focused on the conception and implementation of different learning objects. Halfway through our project, we made the decision to set up a dedicated backend for data storage and retrieval. The primary motivation behind this strategic shift was to ensure the efficient management and smooth operation of our expanding content base. This enabled us to store, access, and manage data effectively, providing a more seamless learning experience for users. Therefore, resources had to be freed up to prepare the backend accordingly. In the end, however, this was a good decision, as it allowed us to implement a true full-stack application and thus address any other issues.
+    </div>
+</section>
+
+
+    </main>
+<footer>
+    <section>
+        <a href="https://chrisWolter.github.io/showtime-website/" class="animate-trigger"><strong>IMI<span class="light">⨯</span><span class="animate">ST</span></strong> 
+
+
+
+
+
+
+    
+        23/24
+    
+
+</a>
+        <ul>
+            <li><a href="https://chrisWolter.github.io/showtime-website/contact">Contact</a></li>
+            <li><a href="https://chrisWolter.github.io/showtime-website/privacy-policy">Privacy Policy</a></li>
+            <li><a href="https://chrisWolter.github.io/showtime-website/imprint">Imprint</a></li>
+        </ul>
+    </section>
+    <img src="https://chrisWolter.github.io/showtime-website/img/htw-logo.png" alt="HTW Logo">
+</footer>
+</body>
+</html>

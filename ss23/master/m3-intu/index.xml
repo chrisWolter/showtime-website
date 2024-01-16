@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intu on IMI Showtime</title>
+    <link>https://chrisWolter.github.io/showtime-website/ss23/master/m3-intu/</link>
+    <description>Recent content in Intu on IMI Showtime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language><atom:link href="https://chrisWolter.github.io/showtime-website/ss23/master/m3-intu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m3-intu/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m3-intu/features/</guid>
+      <description>Interactive Learning Content Intu incorporates interactive learning objects, providing users with the opportunity to actively engage with the content. This includes an animated, exploratory diagram that offers a guided view while also supporting full user control. In addition a practical implementation of the MVC Pattern enables students to better understand and explore relationships within the content. To ensure understanding and retention, Intu also features practical tasks for users to apply and test their newly acquired knowledge.</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m3-intu/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m3-intu/process/</guid>
+      <description>Requirements Analysis During the initial phase of our project, we engaged in extensive brainstorming sessions to determine what features our learning application should provide. We came up with more than 70 ideas and requirements that we considered interesting and worthy to explore. During this phase, we gave special attention to identifying strengths and weaknesses of current learning platforms, and emphasized on finding potential new and innovative approaches. Following the brainstorming phase, we conducted several iterations of prioritization which helped us narrow down our focus.</description>
+    </item>
+    
+    <item>
+      <title>Challenges</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m3-intu/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m3-intu/challenges/</guid>
+      <description>Research for credible Sources Finding reliable sources posed its own set of challenges. While we gathered valuable information from the lecture notes, we recognized the need to seek additional sources with verifiable credibility. Hence, a lot of research has been conducted. Moreover, we aspired to enhance the transparency of the educational content we provide by incorporating a &amp;lsquo;Sources&amp;rsquo; button. This offers users the chance to immerse further into the subject matter, substantiating their understanding directly from the original resources.</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m3-intu/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m3-intu/techstack/</guid>
+      <description>Concept &amp;amp; Design Miro
+Miro was used for the initial brainstorming session, for concretizing the requirements and concept, and for the wireframes. It allowed the team to discuss and visualize ideas and record decisions.
+Figma
+Figma was used to create the UI component library, styleguide and final design of the user interface of intu.
+Development React
+React is a progressive JavaScript framework, leveraging its capabilities to build interactive user interfaces.</description>
+    </item>
+    
+    <item>
+      <title>Future</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m3-intu/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m3-intu/future/</guid>
+      <description>During the creation of the MVP, certain features were excluded due to considerations of scope, time limitations, or their relative importance compared to the essential feature set. This section aims to highlight some of the features that may be added to intu in the future.
+Index Cards One of the features that has already been fully designed for future integration is “Index Cards”. Users will not only be able to transfer learning content into the notes in the knowledge base but also create index cards from it.</description>
+    </item>
+    
+  </channel>
+</rss>

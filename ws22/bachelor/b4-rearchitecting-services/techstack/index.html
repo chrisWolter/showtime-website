@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="/showtime-website/css/style.min.9b1b84f3074375c47f892a256e7ca0d8d514f5b11e02003d6e395472ae589949.css" integrity="sha256-mxuE8wdDdcR/iSolbnyg2NUU9bEeAgA9bjlUcq5YmUk=" crossorigin="anonymous">
+
+
+<script src=https://chrisWolter.github.io/showtime-website/js/title-animate.js charset="utf-8"></script>
+<script src=https://chrisWolter.github.io/showtime-website/js/semester-select.js charset="utf-8"></script>
+<script src=https://chrisWolter.github.io/showtime-website/js/secret.js charset="utf-8"></script>
+<title>IMI Showtime - HTW Berlin</title>
+<body>
+<nav class="background bachelor">
+    <a href="https://chrisWolter.github.io/showtime-website/" class="animate-trigger"><strong>IMI<span class="light">×</span><span class="animate">ST</span></strong> <span class="light">
+
+
+
+
+
+
+    
+        23/24
+    
+
+</span></a>
+     
+    <div class = "warn">Preview Site! 
+        (with drafts)
+      <div class = "warn small">Production Site: <a href="https://showtime.f4.htw-berlin.de/">https://showtime.f4.htw-berlin.de/</a></div>
+    </div>  
+    
+    <ul>
+        <li><a href="https://chrisWolter.github.io/showtime-website/projects">Projects</a></li>
+        <li><a href="https://chrisWolter.github.io/showtime-website/schedule">Schedule</a></li>
+        <li><a href="https://chrisWolter.github.io/showtime-website/dates">Dates</a></li>
+        
+        
+        
+            
+            
+        
+        <li><a href="/showtime-website/ss23">Archive</a></li>
+        <li><a href="https://chrisWolter.github.io/showtime-website/contact">Contact</a></li>
+   </ul>
+</nav>
+
+    <div class="background bachelor">
+        <header class="project-header">
+            <h1>
+                <span class="type">B4 Bachelor</span>
+                Rearchitecting Services with AWS Lambda Functions
+                <span class="underscore-spacer"> </span>
+            </h1>
+            <section style="text-align: right;">
+                <div class="spacer"></div>
+                
+                    <h4>Team</h4>
+                    <ul>
+                        
+                            <li>Daniel Betke</li>
+                        
+                            <li>Ekaterina Kuritsyna</li>
+                        
+                            <li>Rizki Pramadhan</li>
+                        
+                            <li>Reyhan Rumengan</li>
+                        
+                    </ul>
+                
+                
+                    <h4>Supervision</h4>
+                    Robert Wolff
+                
+            </section>
+        </header>
+    </div>
+    <div class="project-menu desktop-menu background bachelor">
+        <ul>
+            <li ><a href="/showtime-website/ws22/bachelor/b4-rearchitecting-services/">Overview</a></li>
+            
+            <li ><a href="/showtime-website/ws22/bachelor/b4-rearchitecting-services/features/">Features</a></li>
+            
+            <li ><a href="/showtime-website/ws22/bachelor/b4-rearchitecting-services/process/">Process</a></li>
+            
+            <li class="active"><a href="/showtime-website/ws22/bachelor/b4-rearchitecting-services/techstack/">Tech Stack</a></li>
+            
+        </ul>
+    </div>
+    <div class="project-menu mobile-menu background bachelor">
+        <ul>
+            <li ><a href="/showtime-website/ws22/bachelor/b4-rearchitecting-services/">Overview</a></li>
+            
+            <li ><a href="/showtime-website/ws22/bachelor/b4-rearchitecting-services/features/">Features</a></li>
+            
+            <li ><a href="/showtime-website/ws22/bachelor/b4-rearchitecting-services/process/">Process</a></li>
+            
+            <li class="active"><a href="/showtime-website/ws22/bachelor/b4-rearchitecting-services/techstack/">Tech Stack</a></li>
+            
+        </ul>
+        <input type="checkbox" id="project-menu-button">
+        <label for="project-menu-button">
+            <span></span>
+        </label>
+        <div class="dropdown-menu">
+            <ul>
+                
+            </ul>
+        </div>
+    </div>
+    <main class="project">
+        
+        <section>
+    <h3>
+        
+            Tech Stack
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        <h2 id="project-management">Project management</h2>
+<p>We used Notion, Miro and Microsoft Teams for project management and communication.</p>
+<figure>
+    <img src="/showtime-website/ws22/bachelor/b4-rearchitecting-services/management.png" alt="">
+</figure>
+<h2 id="development">Development</h2>
+<p>TypeScript was used as the programming language, executed on Node.js
+We also used the AWS Cloud Development Kit (AWS CDK) as a software development framework to define the cloud infrastructure as code and deploy it through AWS CloudFormation. We used GitHub for code hosting and code version control, where we also set up GitHub Actions to automate building, testing, and deployment to AWS.</p>
+<figure>
+    <img src="/showtime-website/ws22/bachelor/b4-rearchitecting-services/dev.png" alt="">
+</figure>
+<p>Amazon Web Services (AWS) that we used to build our infrastructure:</p>
+<ul>
+<li>Identity and Access Management (IAM) to provide secure access to all infrastructure operations, defines roles and rights.</li>
+<li>API Gateway to get and process a large number of simultaneous API requests and to expose the Lambda endpoint to the internet</li>
+<li>Lambda to run code serverless only on demand and only to the required extent.</li>
+<li>S3 to store input traffic</li>
+<li>SQS to to store transformed input data pending further processing.</li>
+</ul>
+<figure>
+    <img src="/showtime-website/ws22/bachelor/b4-rearchitecting-services/aws.png" alt="">
+</figure>
+<h2 id="design-tools">Design tools</h2>
+<figure>
+    <img src="/showtime-website/ws22/bachelor/b4-rearchitecting-services/design.png" alt="">
+</figure>
+
+    </div>
+</section>
+
+
+    </main>
+<footer>
+    <section>
+        <a href="https://chrisWolter.github.io/showtime-website/" class="animate-trigger"><strong>IMI<span class="light">⨯</span><span class="animate">ST</span></strong> 
+
+
+
+
+
+
+    
+        23/24
+    
+
+</a>
+        <ul>
+            <li><a href="https://chrisWolter.github.io/showtime-website/contact">Contact</a></li>
+            <li><a href="https://chrisWolter.github.io/showtime-website/privacy-policy">Privacy Policy</a></li>
+            <li><a href="https://chrisWolter.github.io/showtime-website/imprint">Imprint</a></li>
+        </ul>
+    </section>
+    <img src="https://chrisWolter.github.io/showtime-website/img/htw-logo.png" alt="HTW Logo">
+</footer>
+</body>
+</html>

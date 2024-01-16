@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ShopGPT - AI Shopping Assistant on IMI Showtime</title>
+    <link>https://chrisWolter.github.io/showtime-website/ss23/master/m4-shop-gpt/</link>
+    <description>Recent content in ShopGPT - AI Shopping Assistant on IMI Showtime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language><atom:link href="https://chrisWolter.github.io/showtime-website/ss23/master/m4-shop-gpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m4-shop-gpt/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m4-shop-gpt/features/</guid>
+      <description>Product Search And Filter The AI-powered product search and filter feature is the core functionality of shopGPT, designed to help users find and buy products through idealo.de. The user can specify preferences such as price range, brand, or other relevant criteria to narrow down the list of products displayed.
+Product Filter Suggestion Tags Based on your message history, ShopGPT creates tailored and easy-to-understand questions, designed to help you make the most out of your AI shopping assistant.</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m4-shop-gpt/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m4-shop-gpt/process/</guid>
+      <description>Research Choosing Machine Learning (ML) models. We explored different options for ML models that could power the chatbot. Some of the options considered were GPT-3 from OpenAI, Alpaca from Stanford University, and Llama from Meta. We assessed their features, capabilities, and compatibility with our requirements to make an informed decision.
+Getting to know LangChain. LangChain is a framework specifically designed to simplify the creation of applications utilizing large language models.</description>
+    </item>
+    
+    <item>
+      <title>Challenges</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m4-shop-gpt/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m4-shop-gpt/challenges/</guid>
+      <description>New AI Technologies Using cutting-edge AI technologies presented us with significant challenges. It required considerable time and effort to thoroughly research Prompt Engineering, GPT models, LangChain framework and grasp these concepts, ensuring a solid understanding for effective integration into our project. Keeping Up with Rapid Technology Changes As technology rapidly evolves, we encountered challenges in staying up-to-date with frequent updates in LangChain versions, OpenAI function calls, GPT models, and Vector Database.</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m4-shop-gpt/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m4-shop-gpt/techstack/</guid>
+      <description>Concept &amp;amp; Design Figma Used for creating and visualizing design concepts, and UI/UX elements. Canva Utilized for designing graphics, logos for the chatbot. Miro Used as a visual collaboration tool, allowing for the sharing of ideas, documents, and links, fostering a collaborative and productive environment. App Development NextJS Chosen as the web framework for building the application, providing server-side rendering, efficient routing, and an enhanced developer experience. React Used for frontend development, React enables the creation of interactive and reusable UI components, while TypeScript enhances code reliability and scalability.</description>
+    </item>
+    
+    <item>
+      <title>Future</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m4-shop-gpt/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m4-shop-gpt/future/</guid>
+      <description>Uploading Multiple Images It is intended that ShopGPT will support the ability to upload multiple images in the future. This will enable users to provide more detailed visual information about the products they are seeking, allowing for even more accurate and tailored recommendations. Combination of Text and Image Input Currently, the user can either text or upload an image. We want to work towards seamlessly integrating both text and image input simultaneously within ShopGPT.</description>
+    </item>
+    
+  </channel>
+</rss>

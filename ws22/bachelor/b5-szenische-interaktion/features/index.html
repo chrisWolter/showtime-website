@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="/showtime-website/css/style.min.9b1b84f3074375c47f892a256e7ca0d8d514f5b11e02003d6e395472ae589949.css" integrity="sha256-mxuE8wdDdcR/iSolbnyg2NUU9bEeAgA9bjlUcq5YmUk=" crossorigin="anonymous">
+
+
+<script src=https://chrisWolter.github.io/showtime-website/js/title-animate.js charset="utf-8"></script>
+<script src=https://chrisWolter.github.io/showtime-website/js/semester-select.js charset="utf-8"></script>
+<script src=https://chrisWolter.github.io/showtime-website/js/secret.js charset="utf-8"></script>
+<title>IMI Showtime - HTW Berlin</title>
+<body>
+<nav class="background bachelor">
+    <a href="https://chrisWolter.github.io/showtime-website/" class="animate-trigger"><strong>IMI<span class="light">×</span><span class="animate">ST</span></strong> <span class="light">
+
+
+
+
+
+
+    
+        23/24
+    
+
+</span></a>
+     
+    <div class = "warn">Preview Site! 
+        (with drafts)
+      <div class = "warn small">Production Site: <a href="https://showtime.f4.htw-berlin.de/">https://showtime.f4.htw-berlin.de/</a></div>
+    </div>  
+    
+    <ul>
+        <li><a href="https://chrisWolter.github.io/showtime-website/projects">Projects</a></li>
+        <li><a href="https://chrisWolter.github.io/showtime-website/schedule">Schedule</a></li>
+        <li><a href="https://chrisWolter.github.io/showtime-website/dates">Dates</a></li>
+        
+        
+        
+            
+            
+        
+        <li><a href="/showtime-website/ss23">Archive</a></li>
+        <li><a href="https://chrisWolter.github.io/showtime-website/contact">Contact</a></li>
+   </ul>
+</nav>
+
+    <div class="background bachelor">
+        <header class="project-header">
+            <h1>
+                <span class="type">B5 Bachelor</span>
+                Interactive Stage Design
+                <span class="underscore-spacer"> </span>
+            </h1>
+            <section style="text-align: right;">
+                <div class="spacer"></div>
+                
+                    <h4>Team</h4>
+                    <ul>
+                        
+                            <li>Robin Kehr</li>
+                        
+                            <li>Lucas Winter</li>
+                        
+                            <li>Karl Buklewski</li>
+                        
+                            <li>Alexander Ehrenhoefer</li>
+                        
+                    </ul>
+                
+                
+                    <h4>Supervision</h4>
+                    Alexander Kramer, Ralf Strecker
+                
+            </section>
+        </header>
+    </div>
+    <div class="project-menu desktop-menu background bachelor">
+        <ul>
+            <li ><a href="/showtime-website/ws22/bachelor/b5-szenische-interaktion/">Overview</a></li>
+            
+            <li class="active"><a href="/showtime-website/ws22/bachelor/b5-szenische-interaktion/features/">Features</a></li>
+            
+            <li ><a href="/showtime-website/ws22/bachelor/b5-szenische-interaktion/future/">Future</a></li>
+            
+        </ul>
+    </div>
+    <div class="project-menu mobile-menu background bachelor">
+        <ul>
+            <li ><a href="/showtime-website/ws22/bachelor/b5-szenische-interaktion/">Overview</a></li>
+            
+            <li class="active"><a href="/showtime-website/ws22/bachelor/b5-szenische-interaktion/features/">Features</a></li>
+            
+        </ul>
+        <input type="checkbox" id="project-menu-button">
+        <label for="project-menu-button">
+            <span></span>
+        </label>
+        <div class="dropdown-menu">
+            <ul>
+                
+                <li ><a href="/showtime-website/ws22/bachelor/b5-szenische-interaktion/future/">Future</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <main class="project">
+        
+        <section>
+    <h3>
+        
+            More than just a particle system
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        <p>The project basically consists of 4 components: A web app that allows the audience to submit drawings to the concert songs, a backend that manages the data and makes the different services publicly available, an audio analysis program to evaluate live music input data and finally the Unity application that visualizes the live music data and the audience drawings.</p>
+<figure>
+    <img src="/showtime-website/ws22/bachelor/b5-szenische-interaktion/basic-architecture.png" alt="Basic Architecture">
+</figure>
+
+    </div>
+</section>
+
+<section>
+    <h3>
+        
+            Unity
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        <p>The main part for our project is the visualization app which we build via Unity. It communicates with the music analyzer Tool to visualize the live music and with the Web app to get the collected user input. Our visualization is realized with the Unity Particle System and with the VFX Graph. Inside the running Unity App you can start and stop the visualization of the user input, switch between songs, stop or change colors for the live input visualization and dissolve the particles for small breaks.</p>
+<figure>
+    <img src="/showtime-website/ws22/bachelor/b5-szenische-interaktion/full-screen-pink-mountains-s.png" alt="Interaction in Unity">
+</figure>
+
+    </div>
+</section>
+
+<section>
+    <h3>
+        
+            Liveinput
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        <p>In order for the visualization to be visibly related to the music, we still needed a way to analyze music in real time in order to use it to influence parameters in the Unity application. The choice of framework here fell relatively quickly on JUCE, since it is possible to realize both standalone applications and plug-ins with it and we had not made this decision at the beginning. In the end, we decided to use a plug-in, because this way we didn&rsquo;t have to implement the routing of the audio channels ourselves.
+For the analysis we decided to implement relatively simple analyzers, but to provide 6 channels in order to be able to create complex but obvious connection between music and visualization.
+Another challenge was the assignment of the analysis values to the parameters of the Unity application. We ultimately solved this using a matrix mixer per analysis channel. This approach allowed for maximum flexibility, even if it was somewhat at the expense of usability, since there were ultimately a lot of coefficients that could have been set.</p>
+<figure>
+    <img src="/showtime-website/ws22/bachelor/b5-szenische-interaktion/reaper.jpg" alt="Reaper Music Analyzer">
+</figure>
+
+    </div>
+</section>
+
+<section>
+    <h3>
+        
+            WebApp
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        <p>The WebApp gives visitors a variety of functions and information. The visitor should be given the opportunity to get an overview of past and upcoming events. Furthermore, each event should have a title, start and duration as well as a track list with the songs played at the event.</p>
+<p>In the run-up to an event, the audience can submit their own small drawings via a website for the individual songs that will be played at the event. These drawings are then played as an animation during the concert, so that all spectators can clearly recognize their input:</p>
+<figure>
+    <img src="/showtime-website/ws22/bachelor/b5-szenische-interaktion/web-app-baisc-process.png" alt="Input zeichnen">
+</figure>
+<figure>
+    <img src="/showtime-website/ws22/bachelor/b5-szenische-interaktion/mockup-webapp.png" alt="Input zeichnen">
+<figcaption>Mockup of the WebApp</figcaption>
+</figure>
+
+    </div>
+</section>
+
+
+    </main>
+<footer>
+    <section>
+        <a href="https://chrisWolter.github.io/showtime-website/" class="animate-trigger"><strong>IMI<span class="light">⨯</span><span class="animate">ST</span></strong> 
+
+
+
+
+
+
+    
+        23/24
+    
+
+</a>
+        <ul>
+            <li><a href="https://chrisWolter.github.io/showtime-website/contact">Contact</a></li>
+            <li><a href="https://chrisWolter.github.io/showtime-website/privacy-policy">Privacy Policy</a></li>
+            <li><a href="https://chrisWolter.github.io/showtime-website/imprint">Imprint</a></li>
+        </ul>
+    </section>
+    <img src="https://chrisWolter.github.io/showtime-website/img/htw-logo.png" alt="HTW Logo">
+</footer>
+</body>
+</html>

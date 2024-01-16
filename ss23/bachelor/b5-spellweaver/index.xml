@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spellweaver- Words of Power on IMI Showtime</title>
+    <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b5-spellweaver/</link>
+    <description>Recent content in Spellweaver- Words of Power on IMI Showtime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language><atom:link href="https://chrisWolter.github.io/showtime-website/ss23/bachelor/b5-spellweaver/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b5-spellweaver/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b5-spellweaver/features/</guid>
+      <description>Features The following is a brief overview of the individual features of our game. They were developed with the goal to playfully try out speech-to-text input in VR and to test its performance. Despite the focus on STT, it was important to us to create a solid and meaningful gaming experience.
+Core Elements three selectable Speech-to-Text API&amp;rsquo;s spell book with different spells that can be turned over wand in different designs to cast the selected spell word error rate analysis board where you can see the transcribed text and what mistakes you made WER analytics board &amp;amp; Score Board SpellBook &amp;amp; Wand .</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b5-spellweaver/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b5-spellweaver/process/</guid>
+      <description>Process API&amp;rsquo;s - Research and Testing Since the core task of our project was to investigate STT in VR, we invested a lot of time in selecting API&amp;rsquo;s. All good things come in threes, and thus also the number of our selected apis. However, the road to the three finalists was not so short, as there is a wide range of APIs and we also had to run several tests, understand the logic and also ensure their functionality on Unity.</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b5-spellweaver/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b5-spellweaver/techstack/</guid>
+      <description>Organisation and Communication For a good communication as well as organization within the group, we used the following services Discord for our two weekly online meetings WhatsApp to keep up to date all the time Google Drive to store our shared documents within the group and with our supervisors Mattermost for the communication with the research group GitLab for organizing the Unity project Miro for visualizing the process and collect inspirations for our game Discord WhatsApp Mattermost Google Drive GitLab Miro Development To create a game in virtual reality, we needed some software to develop it and to run it on device Rider,VS Code,VS these three were our favourite IDE&amp;rsquo;s for C# develepment in Unity Unity was our main tool to work with the XR components, create the scenes, game objects, and to bring our game more and more to life Oculus is necessary to set up our VR-Glasses Sidequest is like a second app store we needed to start the game on device Rider Visual Studio Code Visual Studio Unity Oculus Sidequest Image Sources https://de.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ShopGPT - Intelligent Shopping Made Simple on IMI Showtime</title>
+    <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b3-shop-gpt/</link>
+    <description>Recent content in ShopGPT - Intelligent Shopping Made Simple on IMI Showtime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language><atom:link href="https://chrisWolter.github.io/showtime-website/ss23/bachelor/b3-shop-gpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b3-shop-gpt/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b3-shop-gpt/features/</guid>
+      <description>Features Curated shopping list A curated shopping list offers a thematic shopping experience that provides users with automatic, personalized product recommendations based on specific events or activities they choose. Whether users are preparing for a camping tour, a clubbing night out, or any other occasion, the curated shopping list caters to their unique needs.
+Product comparison ShopGPT analyzes product descriptions and specifications to automatically compare similar products and highlight the most important differences and similarities, helping users make informed purchasing decisions.</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b3-shop-gpt/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b3-shop-gpt/process/</guid>
+      <description>Process We started the project with a brainstorming phase to come up with realistic use cases, which can be done in the given time and with regard of our skills. There were multiple different ideas like a chat assistant and including the OpenAI speech recognition Whisper. Finally we decided on 3 use cases to explore: curated shopping list, product comparison and a product summary.
+The first week was focused on onboarding, reading OpenAI documentation and prompt engineering to test feasibility of our selected use cases.</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b3-shop-gpt/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b3-shop-gpt/techstack/</guid>
+      <description> Tech stack Our tech stack consists of the following technologies:
+Javascript Chrome Extension React NPM Webpack OpenAI API idealo Open Search API Jest </description>
+    </item>
+    
+  </channel>
+</rss>

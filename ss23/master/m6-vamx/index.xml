@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VamX-Virtual Audio Manipulation Experience on IMI Showtime</title>
+    <link>https://chrisWolter.github.io/showtime-website/ss23/master/m6-vamx/</link>
+    <description>Recent content in VamX-Virtual Audio Manipulation Experience on IMI Showtime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language><atom:link href="https://chrisWolter.github.io/showtime-website/ss23/master/m6-vamx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m6-vamx/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m6-vamx/features/</guid>
+      <description>Features VamX Vamx is a editor tool that allows multiple sounds instances to be grouped and controlled by a single component.
+The Editor component allows the user to import a sound file and manipulate various sound properties using different evaluation methods, such as custom graphs for complex sound manipulation. The various sound properties and their evaluation settings can be saved as presets and reused in other sound files.
+The Editor allows importing regular audio files via the Unity-Editor</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m6-vamx/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m6-vamx/techstack/</guid>
+      <description>Tech Stack Within the Unity game engine, we developed the sound framework and built the VR test environment. It provided us with many build-in features for programming with sounds and was well suited for development with VR. The XR Interaction Toolkit offered us all the basic functions for interaction in VR. With the help of input events and haptic feedback, we were able to make the minigames more interesting and created a good gaming experience.</description>
+    </item>
+    
+    <item>
+      <title>Download</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m6-vamx/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m6-vamx/process/</guid>
+      <description> Download You can download VamX and the games here. </description>
+    </item>
+    
+  </channel>
+</rss>

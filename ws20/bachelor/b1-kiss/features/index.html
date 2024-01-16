@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="/showtime-website/css/style.min.9b1b84f3074375c47f892a256e7ca0d8d514f5b11e02003d6e395472ae589949.css" integrity="sha256-mxuE8wdDdcR/iSolbnyg2NUU9bEeAgA9bjlUcq5YmUk=" crossorigin="anonymous">
+
+
+<script src=https://chrisWolter.github.io/showtime-website/js/title-animate.js charset="utf-8"></script>
+<script src=https://chrisWolter.github.io/showtime-website/js/semester-select.js charset="utf-8"></script>
+<script src=https://chrisWolter.github.io/showtime-website/js/secret.js charset="utf-8"></script>
+<title>IMI Showtime - HTW Berlin</title>
+<body>
+<nav class="background bachelor">
+    <a href="https://chrisWolter.github.io/showtime-website/" class="animate-trigger"><strong>IMI<span class="light">×</span><span class="animate">ST</span></strong> <span class="light">
+
+
+
+
+
+
+    
+        23/24
+    
+
+</span></a>
+     
+    <div class = "warn">Preview Site! 
+        (with drafts)
+      <div class = "warn small">Production Site: <a href="https://showtime.f4.htw-berlin.de/">https://showtime.f4.htw-berlin.de/</a></div>
+    </div>  
+    
+    <ul>
+        <li><a href="https://chrisWolter.github.io/showtime-website/projects">Projects</a></li>
+        <li><a href="https://chrisWolter.github.io/showtime-website/schedule">Schedule</a></li>
+        <li><a href="https://chrisWolter.github.io/showtime-website/dates">Dates</a></li>
+        
+        
+        
+            
+            
+        
+        <li><a href="/showtime-website/ss23">Archive</a></li>
+        <li><a href="https://chrisWolter.github.io/showtime-website/contact">Contact</a></li>
+   </ul>
+</nav>
+
+    <div class="background bachelor">
+        <header class="project-header">
+            <h1>
+                <span class="type">B1 Bachelor</span>
+                KISS
+                <span class="underscore-spacer"> </span>
+            </h1>
+            <section style="text-align: right;">
+                <div class="spacer"></div>
+                
+                    <h4>Team</h4>
+                    <ul>
+                        
+                            <li>Jonathan Jander</li>
+                        
+                            <li>Henry Ordelt</li>
+                        
+                            <li>Anton Schöps</li>
+                        
+                            <li>Kenneth Englisch</li>
+                        
+                            <li>Kieu Oanh Thi Tran</li>
+                        
+                            <li>Niklas Lengert</li>
+                        
+                    </ul>
+                
+                
+                    <h4>Supervision</h4>
+                    Prof. Dr. Tobias Lenz
+                
+            </section>
+        </header>
+    </div>
+    <div class="project-menu desktop-menu background bachelor">
+        <ul>
+            <li ><a href="/showtime-website/ws20/bachelor/b1-kiss/">Overview</a></li>
+            
+            <li class="active"><a href="/showtime-website/ws20/bachelor/b1-kiss/features/">Features</a></li>
+            
+            <li ><a href="/showtime-website/ws20/bachelor/b1-kiss/process/">Process</a></li>
+            
+            <li ><a href="/showtime-website/ws20/bachelor/b1-kiss/tech-stack/">Tech Stack</a></li>
+            
+            <li ><a href="/showtime-website/ws20/bachelor/b1-kiss/future/">Future</a></li>
+            
+        </ul>
+    </div>
+    <div class="project-menu mobile-menu background bachelor">
+        <ul>
+            <li ><a href="/showtime-website/ws20/bachelor/b1-kiss/">Overview</a></li>
+            
+            <li class="active"><a href="/showtime-website/ws20/bachelor/b1-kiss/features/">Features</a></li>
+            
+            <li ><a href="/showtime-website/ws20/bachelor/b1-kiss/process/">Process</a></li>
+            
+        </ul>
+        <input type="checkbox" id="project-menu-button">
+        <label for="project-menu-button">
+            <span></span>
+        </label>
+        <div class="dropdown-menu">
+            <ul>
+                
+                <li ><a href="/showtime-website/ws20/bachelor/b1-kiss/tech-stack/">Tech Stack</a></li>
+                
+                <li ><a href="/showtime-website/ws20/bachelor/b1-kiss/future/">Future</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <main class="project">
+        
+        <p>
+
+    
+        
+    
+    
+    
+
+
+<figure>
+    <img src="/showtime-website/ws20/bachelor/b1-kiss/Overview_features.png" alt="Mockup">
+
+</figure>
+
+<section>
+    <h3>
+        
+            Feature set
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        <h4 id="offline-data">Offline Data</h4>
+<p>Our app is completely offline compatible
+We have <strong>over 30.000 ingredients</strong> stored in our data set.
+It was important for us to guarantee that the user is always able to use the app. Therefore we didn&rsquo;t want to rely on an internet connection.</p>
+<h4 id="text-recognitionfiltering">Text Recognition/Filtering</h4>
+<p>Our app uses the Firebase ML text recognition to recognise the ingredients on the back of the product.</p>
+<p>The <strong>backside</strong> of a product is <strong>full of information that isn&rsquo;t interesting to us or our app</strong>. So <strong>filtering out</strong> the information we need was quite <strong>important for the performance</strong> of our app.
+Some things that our app takes into account is <strong>how</strong> the <strong>ingredients are separated</strong>. It differs from product to product how they separate the ingredients, <strong>some use commas</strong>, some use <strong>dashes</strong>, some just use <strong>spaces</strong>. For our app to scan products as fast as possible, we need to recognise which word is an ingredient and which isn&rsquo;t, so our search algorithm doesn&rsquo;t have to search for words that aren&rsquo;t ingredients.
+Another way to improve our text filter was to <strong>look for the word &lsquo;ingredients&rsquo;</strong> or variations of it. In most cases, the list of ingredients starts with the word &lsquo;ingredients&rsquo;, so <strong>finding this word</strong> in our text <strong>helped us locate the list of ingredients</strong> in our scanned text.</p>
+<h4 id="allergies">Allergies</h4>
+<p>One of our <strong>core features</strong> is the allergy feature. This feature <strong>derived from one of our User Personas</strong> that we created for our app. <strong>People with allergies</strong> can use our app to <strong>manage</strong> them and use it as a <strong>signal</strong> for whenever they are about to <strong>buy a product they are allergic to</strong>.</p>
+
+    </div>
+</section>
+</p>
+<!--
+
+    
+        
+    
+    
+    
+
+
+<figure>
+    <img src="/showtime-website/ws20/bachelor/b1-kiss/dummy_feature_image_01.png" alt="An Essential Functionality">
+
+<figcaption>An Essential Functionality</figcaption>
+
+</figure>
+ -->
+<section>
+    <h3>
+        
+            String matching algorithm
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        Levenshtein distance is an <strong>approximate string matching algorithm</strong>, which calculates the distance between two words.
+The distance is calculated via the three operations: <strong>insertion, deletion and substitution</strong>.
+The reason we needed an <strong>approximate</strong> string matching algorithm, is because we are working with text recognition and text recognition is <strong>prone to errors</strong>.
+We used this algorithm in <strong>combination</strong> with the <strong>Trie data structure</strong> in order to guarantee <strong>fast querying</strong> of our data.
+    </div>
+</section>
+
+<script type="application/javascript" src="https://gist.github.com/jonathanjander/a56dde942b2aa9ad7e78887e6086fc97.js"></script>
+
+<!--<section>
+    <h3>
+        
+            A Copy-pasted Feature
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        <p>And, as I lie <strong>close to the earth</strong>, a thousand unknown plants are noticed by me: when I hear the buzz
+of the little world among the stalks, and grow familiar with the countless indescribable forms of
+the insects and flies, then I feel <strong>the presence of the Universe</strong>, which formed us in its own image,
+and the breath of that universal love which bears and sustains us, as it floats around us in an
+<strong>eternity of bliss;</strong> and then, my friend, when darkness overspreads my eyes, and heaven and earth
+seem to dwell in my soul and absorb its power.</p>
+<p>Have a look at <strong>this list:</strong></p>
+<ul>
+<li>You get a list item</li>
+<li>And you get a list item</li>
+<li>And you as well</li>
+<li>And you get a list item</li>
+<li>EvErYbOdY gEtS a LiSt ItEm!!!</li>
+</ul>
+
+    </div>
+</section>
+
+
+
+
+    
+    
+
+
+<div class="mediathek-embed">
+    
+        <h3>Explanatory Video</h3>
+    
+    <div class="mediathek-player">
+        <img src = "https://chrisWolter.github.io/showtime-website/img/16x9.png" alt="video placeholder">
+        <iframe src="https://mediathek.htw-berlin.de/media/embed?key=447fbfc91fd121a16b124417cd2c65ae&responsive=true&autoplay=false&t=0" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no"></iframe>
+    </div>
+</div>
+
+
+ I sink under the weight of the splendour of these visions! A wonderful serenity
+ has taken possession of my entire soul, like these sweet mornings of spring
+ which I enjoy with my whole heart. I am alone, and feel the charm of existence
+ in this spot, which was created for the bliss of souls like mine. I am so happy,
+ my dear friend, so absorbed in the exquisite sense of mere tranquil existence,
+ that I neglect my talents.
+ -->
+
+    </main>
+<footer>
+    <section>
+        <a href="https://chrisWolter.github.io/showtime-website/" class="animate-trigger"><strong>IMI<span class="light">⨯</span><span class="animate">ST</span></strong> 
+
+
+
+
+
+
+    
+        23/24
+    
+
+</a>
+        <ul>
+            <li><a href="https://chrisWolter.github.io/showtime-website/contact">Contact</a></li>
+            <li><a href="https://chrisWolter.github.io/showtime-website/privacy-policy">Privacy Policy</a></li>
+            <li><a href="https://chrisWolter.github.io/showtime-website/imprint">Imprint</a></li>
+        </ul>
+    </section>
+    <img src="https://chrisWolter.github.io/showtime-website/img/htw-logo.png" alt="HTW Logo">
+</footer>
+</body>
+</html>

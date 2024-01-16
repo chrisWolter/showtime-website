@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security Audit Bot on IMI Showtime</title>
+    <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b6-security-audit-bot/</link>
+    <description>Recent content in Security Audit Bot on IMI Showtime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language><atom:link href="https://chrisWolter.github.io/showtime-website/ss23/bachelor/b6-security-audit-bot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b6-security-audit-bot/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b6-security-audit-bot/features/</guid>
+      <description>Chatbot: A chatbot, the heart of our software, should offer the user a pleasant and intuitive solution to deal with the cyber security of his system, using natural language only. The artificial intelligence classifies the user input and reacts accordingly. It also recognizes previous results and can base new audits on them. An active scan can always be monitored by the user through logs. Results can be viewed permanently at any time.</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b6-security-audit-bot/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b6-security-audit-bot/process/</guid>
+      <description>Organization The project management was mainly done via GitLab, with the GitLab server provided by our project supervisors David Koschnick and Christoph Bork. We followed agile methods and focused primarily on scrum-like project management. However, due to the small team size, we made some deviations from a pure scrum approach.
+At the beginning of the project we brought together our individual skills and interests and developed a shared vision for the product.</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b6-security-audit-bot/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b6-security-audit-bot/techstack/</guid>
+      <description>Project Management The project management was mainly done via GitLab. Our GitLab server was provided by our project supervisors David Koschnick and Christoph Bork. Under their guidance, we focused on agile methods and mainly followed a scrum-like approach.
+For our weekly sprints, we used the issue (ticket) board and milestones (epics). This allowed us to approach our tasks in a structured way and track the increment progress in the project well.</description>
+    </item>
+    
+    <item>
+      <title>Future</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b6-security-audit-bot/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b6-security-audit-bot/future/</guid>
+      <description>Future For the future, we plan to make the SecurityAuditBot even more powerful by enabling the connection of all relevant databases. This will allow the bot to access a broader database and perform more comprehensive checks on existing entries in the databases.
+Furthermore, we will continuously implement more services to extend the SecurityAuditBot’s functionality and cover more security aspects. This includes implementing a configuration check for services, e.g. to identify and point out default passwords.</description>
+    </item>
+    
+    <item>
+      <title>Team</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b6-security-audit-bot/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/bachelor/b6-security-audit-bot/team/</guid>
+      <description> The team We are a young team of three people who worked on the whole creation of the project: Kjell Liebher Minh Vo Mirijam Trippel </description>
+    </item>
+    
+  </channel>
+</rss>

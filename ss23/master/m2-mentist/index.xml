@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mentist on IMI Showtime</title>
+    <link>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/</link>
+    <description>Recent content in Mentist on IMI Showtime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language><atom:link href="https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Challenges</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/challenges/</guid>
+      <description>Challenges Designing an appropriate mental health concept Creating a suitable concept for a mental health chatbot application comes with its unique set of challenges, primarily due to the sensitive nature of the topic that demands utmost care and empathy. Mental health is a deeply personal and delicate issue, making it crucial to approach the design process with great sensitivity and respect for the users&amp;rsquo; emotional well-being. Therefore the planning and design process required multiple cycles of refinement and validation involving psychology expert views and much in-depth research.</description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/features/</guid>
+      <description>Features Empathetic chatbot companion The chatbot boasts a natural language processing capability, allowing it to offer responses that feel authentic and human-like. Through this, users can engage in conversational interactions that foster a sense of comfort and ease, as if speaking with a caring friend. The chatbot&amp;rsquo;s compassionate and personal approach is a standout feature, as it tailors its responses to each user&amp;rsquo;s emotional state. By recognizing and acknowledging individual struggles, the chatbot becomes a reliable and understanding companion throughout the users&amp;rsquo; mental health journey.</description>
+    </item>
+    
+    <item>
+      <title>Future</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/future/</guid>
+      <description>Future Improved and high-quality chatbot Through advancements in data science and machine learning, the chatbot&amp;rsquo;s ability to analyze and provide personalized support will be greatly improved. The chatbot will be equipped to offer tailored recommendations and coping strategies based on individual user patterns, fostering a deeper understanding of each user&amp;rsquo;s unique needs.
+Personalized needs with various trackers Different trackers will be developed for users to set them individually according to their own preferences.</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/process/</guid>
+      <description>Process Research The research process was crucial for the project due to its focus on the sensitive topic of mental illnesses. Extensive research was required for mental illnesses in general, looking into various psychological models and medical literature to make important decisions about choosing appropriate features for a fitting target group. Therefore a thorough examination of the targeted users were also overly crucial including a careful analysis of the mental illness - depression.</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/techstack/</guid>
+      <description> Basic Gitlab Discord Zoom Frontend Vue Nuxt3 TailwindCSS Vuetify Backend Django DjangoREST Rasa Open Source </description>
+    </item>
+    
+  </channel>
+</rss>
