@@ -513,15 +513,6 @@ Our brainstorming process As interesting as all of those ideas would have been, 
     
     <item>
       <title>Future</title>
-      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</guid>
-      <description> Future </description>
-    </item>
-    
-    <item>
-      <title>Future</title>
       <link>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/future/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -928,6 +919,15 @@ Dashboard The dashboard is the heart of the App, providing organized shortcuts t
       
       <guid>https://chrisWolter.github.io/showtime-website/ws22/master/m7-valit/features/</guid>
       <description>Dashboard The dashboard overview shows important statistics such as the overall course rating and the number of dial-ins. Recent courses for quick access and also upcoming courses, along with a calendar are provided. Course Overview The course overview displays all courses of the lecturer with related information such as semester, degree, program, etc. The lecturer has the option to create a new course, so the application automatically creates an evaluation on the given dates.</description>
+    </item>
+    
+    <item>
+      <title>Future</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</guid>
+      <description> Future </description>
     </item>
     
     <item>

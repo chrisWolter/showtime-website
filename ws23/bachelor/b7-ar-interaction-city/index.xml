@@ -16,15 +16,6 @@
     </item>
     
     <item>
-      <title>Future</title>
-      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</guid>
-      <description> Future </description>
-    </item>
-    
-    <item>
       <title>Process</title>
       <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -40,6 +31,15 @@
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/technology/</guid>
       <description> Project Management Communication and issue tracking took place in Mattermost Development Visual Studio (Code) Unity CLI Arduino IDE Gitlab Hardware Arduino (Button, PN532 NFC Reader, Potenziometer) Raspberry Pi Hololens 2 </description>
+    </item>
+    
+    <item>
+      <title>Future</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</guid>
+      <description> Future </description>
     </item>
     
   </channel>
