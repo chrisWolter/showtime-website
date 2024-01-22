@@ -31,7 +31,7 @@ The concept is the project foundation and was developed in collaboration and coo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/features/</guid>
-      <description></description>
+      <description> Real Life Interactions This project is not just the ordinary XR-Experience. With our newly developed technology you can interact with a real-life model and see the outcome in an augmented world. Press a button, turn a knob or replace a building. Each interaction has an impact on what you will see. </description>
     </item>
     
     <item>
@@ -513,6 +513,15 @@ Our brainstorming process As interesting as all of those ideas would have been, 
     
     <item>
       <title>Future</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</guid>
+      <description> Future </description>
+    </item>
+    
+    <item>
+      <title>Future</title>
       <link>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/future/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -527,7 +536,7 @@ Personalized needs with various trackers Different trackers will be developed fo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/process/</guid>
-      <description></description>
+      <description> Organization Scrum like, 2 weekly meetings Concept &amp;amp; Story Development </description>
     </item>
     
     <item>
@@ -669,7 +678,7 @@ The process started with a brainstorming session where all potential requirement
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/technology/</guid>
-      <description></description>
+      <description> Project Management Communication and issue tracking took place in Mattermost Development Visual Studio (Code) Unity CLI Arduino IDE Gitlab Hardware Arduino (Button, PN532 NFC Reader, Potenziometer) Raspberry Pi Hololens 2 </description>
     </item>
     
     <item>
