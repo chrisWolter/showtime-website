@@ -12,7 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/features/</guid>
-      <description> Real Life Interactions This project is not just the ordinary XR-Experience. With our newly developed technology you can interact with a real-life model and see the outcome in an augmented world. Press a button, turn a knob or replace a building. Each interaction has an impact on what you will see. </description>
+      <description>Interactions Button press With a simple button press you can see how the industry sector could look like in the year 2050. An Industry sector with zero emmissions.
+Turn the knob Decide which energy mix the future will have. Should it be 0% sustainable 100% or something inbetween? Through turning the knob you can decide yourself how the energy is mixed and how the future will look like.
+Exchange the house Why is everyone talking about Heat pumps and why shouldnt I use my old oil stove anymore.</description>
     </item>
     
     <item>
@@ -21,7 +23,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/process/</guid>
-      <description> Organization Scrum like, 2 weekly meetings Concept &amp;amp; Story Development </description>
+      <description> Organization After our planning phase where we developed the idea and wrote all the issues (tickets) for our project we switch to a kanban like development phase. Concept &amp;amp; Story Development </description>
     </item>
     
     <item>
@@ -30,7 +32,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/technology/</guid>
-      <description> Project Management Communication and issue tracking took place in Mattermost Development Visual Studio (Code) Unity CLI Arduino IDE Gitlab Hardware Arduino (Button, PN532 NFC Reader, Potenziometer) Raspberry Pi Hololens 2 </description>
+      <description> Project Management We used Mattermost for our internal communication and for issue tracking. Development Hololens To develop the AR/XR App that is running on the Hololens we used Visual Studio (Code) and Unity. Raspberry The Rapsberry Pi runs the Debian Raspberry Distribution and is used as the MQTT Broker and Hotspot. It was developed with the internal CLI. Arduino The Arduino was developed using the Arduino IDE Hardware Interactions Arduino with one button, one NFC reader and one potenziometer Communication Raspberry Pi XR/AR Apps Hololens 2 Arduino (Button, PN532 NFC Reader, Potenziometer) Raspberry Pi Hololens 2 </description>
     </item>
     
     <item>
@@ -39,7 +41,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</guid>
-      <description> Future </description>
+      <description> Future The topic of this project was to find out if its possible to combine real life interactions with an extended reality view. With the success of the three interactions (Button press, turning a know, exchangign elements) we can think about implementing new interactions. It would also be possible to think about changing the status of a physical object by an interaction in the XR-View. </description>
     </item>
     
   </channel>
