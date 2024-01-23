@@ -31,9 +31,8 @@ The concept is the project foundation and was developed in collaboration and coo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/features/</guid>
-      <description>Interactions Button press With a simple button press you can see how the industry sector could look like in the year 2050. An Industry sector with zero emmissions.
-Turn the knob Decide which energy mix the future will have. Should it be 0% sustainable 100% or something inbetween? Through turning the knob you can decide yourself how the energy is mixed and how the future will look like.
-Exchange the house Why is everyone talking about Heat pumps and why shouldnt I use my old oil stove anymore.</description>
+      <description>Communication Wifi To ensure that our hardware can communicate smoothly in the same network, we use a Raspberry Pi as a WLAN hotspot. This ensures an uninterrupted connection and enables our devices to work together optimally.
+MQTT Communication takes place via MQTT, an open network protocol for machine-to-machine communication. The Arduino uses the MQTT protocol to send messages to the Raspberry Pi, which acts as an MQTT broker. At the same time, the HoloLens glasses subscribe to these messages to receive real-time information.</description>
     </item>
     
     <item>
@@ -529,7 +528,7 @@ Personalized needs with various trackers Different trackers will be developed fo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/process/</guid>
-      <description> Organization After our planning phase where we developed the idea and wrote all the issues (tickets) for our project we switch to a kanban like development phase. Concept &amp;amp; Story Development </description>
+      <description>Organization The project began with a kick-off meeting in which the basic project idea was explained and requirements defined. We also immediately set weekly meeting times that fit into everyone&amp;rsquo;s schedule. In the weeks that followed, we collected ideas for implementation and entered them as issues in our issue tracker, set up the individual parts of the project and started implementing solutions. In the weekly meetings, we informed each other about the project status and discussed our next steps.</description>
     </item>
     
     <item>
@@ -671,7 +670,9 @@ The process started with a brainstorming session where all potential requirement
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/technology/</guid>
-      <description> Project Management We used Mattermost for our internal communication and for issue tracking. Development Hololens To develop the AR/XR App that is running on the Hololens we used Visual Studio (Code) and Unity. Raspberry The Rapsberry Pi runs the Debian Raspberry Distribution and is used as the MQTT Broker and Hotspot. It was developed with the internal CLI. Arduino The Arduino was developed using the Arduino IDE Hardware Interactions Arduino with one button, one NFC reader and one potenziometer Communication Raspberry Pi XR/AR Apps Hololens 2 Arduino (Button, PN532 NFC Reader, Potenziometer) Raspberry Pi Hololens 2 </description>
+      <description>Organisation and Communication We used Mattermost for our internal communication and for issue tracking.
+Mattermost Development HoloLens To develop the AR/XR App that is running on the HoloLens 2 we used Visual Studio (Code) and Unity with MRTK2.
+Raspberry The Rapsberry Pi runs the Debian Raspberry Distribution and is the communication middleware. It serves as the mqtt broker and the wifi hotspot that the arduino and hololens connect too. The Raspberry Pi was set up with the CLI</description>
     </item>
     
     <item>
@@ -929,7 +930,7 @@ Dashboard The dashboard is the heart of the App, providing organized shortcuts t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</guid>
-      <description> Future The topic of this project was to find out if its possible to combine real life interactions with an extended reality view. With the success of the three interactions (Button press, turning a know, exchangign elements) we can think about implementing new interactions. It would also be possible to think about changing the status of a physical object by an interaction in the XR-View. </description>
+      <description>Future Our project is very open and creates a basis for extended reality. You can consider incorporating new interactions, such as switches or touch panels, or changing the platform and running the project on a tablet or VR glasses. New use cases can also be devised and tested. This project could be used very well in industry for maintenance work on machines and establish communication from the machine to the goggles.</description>
     </item>
     
     <item>
