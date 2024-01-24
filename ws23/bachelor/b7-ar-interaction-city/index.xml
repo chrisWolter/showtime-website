@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>VisionIO on IMI Showtime</title>
+    <title>Vision.IO on IMI Showtime</title>
     <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/</link>
-    <description>Recent content in VisionIO on IMI Showtime</description>
+    <description>Recent content in Vision.IO on IMI Showtime</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language><atom:link href="https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -33,7 +33,7 @@ MQTT Communication takes place via MQTT, an open network protocol for machine-to
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/technology/</guid>
       <description>Organisation and Communication We used Mattermost for our internal communication and for issue tracking.
 Mattermost Development HoloLens To develop the AR/XR App that is running on the HoloLens 2 we used Visual Studio (Code) and Unity with MRTK2.
-Raspberry The Rapsberry Pi runs the Debian Raspberry Distribution and is the communication middleware. It serves as the mqtt broker and the wifi hotspot that the arduino and hololens connect too. The Raspberry Pi was set up with the CLI</description>
+Programming Language: C# Raspberry The Rapsberry Pi runs the Debian Raspberry Distribution and is the communication middleware. It serves as the mqtt broker and the wifi hotspot that the arduino and hololens connect too.</description>
     </item>
     
     <item>

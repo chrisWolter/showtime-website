@@ -672,7 +672,7 @@ The process started with a brainstorming session where all potential requirement
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/technology/</guid>
       <description>Organisation and Communication We used Mattermost for our internal communication and for issue tracking.
 Mattermost Development HoloLens To develop the AR/XR App that is running on the HoloLens 2 we used Visual Studio (Code) and Unity with MRTK2.
-Raspberry The Rapsberry Pi runs the Debian Raspberry Distribution and is the communication middleware. It serves as the mqtt broker and the wifi hotspot that the arduino and hololens connect too. The Raspberry Pi was set up with the CLI</description>
+Programming Language: C# Raspberry The Rapsberry Pi runs the Debian Raspberry Distribution and is the communication middleware. It serves as the mqtt broker and the wifi hotspot that the arduino and hololens connect too.</description>
     </item>
     
     <item>
