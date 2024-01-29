@@ -8,6 +8,15 @@
     <language>de-de</language><atom:link href="https://chrisWolter.github.io/showtime-website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Challenges</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/master/m3-lep/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m3-lep/challenges/</guid>
+      <description>UI In the initial stages of development, one key challenge our team faced was designing a user interface (UI) that effectively accommodates the input of constraints and preferences from teachers. Creating a user-friendly and simple UI for teachers to specify their requirements posed a significant hurdle, as it required striking a balance between complexity and user-friendliness. We undertook extensive brainstorming sessions ensuring that it could efficiently capture the nuanced constraints and preferences without overwhelming the teacher.</description>
+    </item>
+    
+    <item>
+      <title>Challenges</title>
       <link>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/challenges/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -27,12 +36,41 @@ The concept is the project foundation and was developed in collaboration and coo
     
     <item>
       <title>Features</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/features/</guid>
+      <description>Dos And Don&amp;#39;ts Guide Introducing our Dos and Don&amp;rsquo;ts Guide: a specialized feature designed exclusively for parents in the Hypno Buddy app. This guide, created by therapists and linked directly to the patient, offers practical tips for daily life, categorizing advice to address common challenges. Unlike resources for children, parents access personalized recommendations, ensuring relevance to their unique situation. The feature, derived from therapist interviews, reflects a concise suggestion to enhance the overall effectiveness of the therapeutic process.</description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/features/</guid>
+      <description>Features Keyword extraction:
+Moodle Course: By reading keywords from course names, course descriptions and keywords added by the educators we remove common words, which are stored in a blacklist, such as &amp;ldquo;a,&amp;rdquo; &amp;ldquo;an,&amp;rdquo; etc. (Functionality and blacklist sourced from beliefmedia.com). SmartLibrary constructs SQL queries from the extracted keywords to read material names and links associated with the keywords from the database.
+Crawler: We built a crawler which can extract learning material names and keywords from the HTML code of websites such as Coursera.</description>
+    </item>
+    
+    <item>
+      <title>Features</title>
       <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/features/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/features/</guid>
-      <description>Communication Wi-Fi To ensure that our hardware can communicate smoothly in the same network, we use a Raspberry Pi as a WLAN hotspot. This ensures an uninterrupted connection and enables our devices to work together optimally.
+      <description>Communication Wifi To ensure that our hardware can communicate smoothly in the same network, we use a Raspberry Pi as a WLAN hotspot. This ensures an uninterrupted connection and enables our devices to work together optimally.
 MQTT Communication takes place via MQTT, an open network protocol for machine-to-machine communication. The Arduino uses the MQTT protocol to send messages to the Raspberry Pi, which acts as an MQTT broker. At the same time, the HoloLens glasses subscribe to these messages to receive real-time information.</description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/master/m3-lep/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m3-lep/features/</guid>
+      <description> Automated planning for semester type &amp;amp; course of study Solve schedule individual course of study with selected semester type. Solve schedule for all courses of study with selected semester type. → Reduce the time of manual planning Admin/Teacher role Separate role as in real scenario, each role has its own permission to use certain features of the app Features for teacher Teachers can log in and have an overview of their modules and schedule Can select their time availabilities, and other preferences Can select their committee activities and mandatory events Can edit module configurations, such as adding groups and specifying preferred rooms Features for admin Admins can create schedules in one click Can see schedule of a course of study or per semester Other features for both roles English and German language settings Available rooms information of the FB </description>
     </item>
     
     <item>
@@ -514,6 +552,15 @@ Our brainstorming process As interesting as all of those ideas would have been, 
     
     <item>
       <title>Future</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/master/m3-lep/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m3-lep/future/</guid>
+      <description> Future Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. </description>
+    </item>
+    
+    <item>
+      <title>Future</title>
       <link>https://chrisWolter.github.io/showtime-website/ss23/master/m2-mentist/future/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -538,6 +585,33 @@ Personalized needs with various trackers Different trackers will be developed fo
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m0-template/process/</guid>
       <description> Process Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. </description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/master/m1-somethinar/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m1-somethinar/process/</guid>
+      <description>Developing a Concept At the beginning of our project, we had a simple goal in mind: to create a game using the Meta Quest 3 headsets provided by HTW, with a focus on multiplayer elements and mixed reality features. To get our project off the ground, we started with some hands-on exploration. We tested various games that were compatible with the Quest 3, and we even took a trip to Cosmic.</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/master/m3-lep/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m3-lep/process/</guid>
+      <description>Research In the project&amp;rsquo;s initial phase, we conducted thorough research to establish a robust foundation for our web application. This involved exploring diverse technology stacks, evaluating programming languages, databases, and frameworks. We studied similar applications for inspiration and best practices. The implementation of timetable and schedule-solving algorithms was a key focus, with a careful assessment of existing solutions. We directly engaged with the planning team, gaining insights into manual planning methods and specific requirements.</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/master/m4-gamingforthefuture/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m4-gamingforthefuture/process/</guid>
+      <description>Initial Meetings Discussed the project with the product owners to identify the core problem related to water scarcity in Brandenburg. Received relevant documents from Rebecca for further understanding. Communication and Iteration We engaged in back-and-forth communication with product owners to refine the project details every week. Flow Charts Developed flow charts to map out the game. Then we created initial prototypes and designs using Figma to visualize the project. Programming We programmed mostly in Unity.</description>
     </item>
     
     <item>
@@ -666,13 +740,51 @@ The process started with a brainstorming session where all potential requirement
     
     <item>
       <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/tech-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/tech-stack/</guid>
+      <description>Project Management In our project toolkit, we used various tools to keep things organized and clear. Notion was our main hub, providing flexibility along with the helpful Education Abo Option. Google Apps, such as TaskBoard for daily tasks and Calendar for sprint scheduling, helped us stay on course easily.
+To see our progress visually, we created a lively Miro board connected to our Gantt Chart, adding color and energy to our project tracking.</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/techstack/</guid>
+      <description> Projektmanagement Miro Github Discord Zoom Whatsapp Design / Styling Figma SCSS &amp;amp; CSS Bootstrap Frontend TypeScript React Backend NodeJS Express JS TypeScript Mongo DB DevOps &amp;amp; Deployment Docker Github Actions Jest (Unit Testing) Cypress (End-to-End Tests) </description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
       <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/technology/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/technology/</guid>
       <description>Organisation and Communication We used Mattermost for our internal communication and for issue tracking.
 Mattermost Development HoloLens To develop the AR/XR App that is running on the HoloLens 2 we used Visual Studio (Code) and Unity with MRTK2.
-Programming Language: C# Raspberry The Raspberry Pi runs the Debian Raspberry Distribution and is the communication middleware. It serves as the MQTT broker and the Wi-Fi hotspot that the Arduino and HoloLens connect too.</description>
+Raspberry The Rapsberry Pi runs the Debian Raspberry Distribution and is the communication middleware. It serves as the mqtt broker and the wifi hotspot that the arduino and hololens connect too. The Raspberry Pi was set up with the CLI</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/master/m3-lep/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m3-lep/techstack/</guid>
+      <description>App Development: Frontend: ReactJS &amp;amp; TypeScript: Our core frontend framework, enabling us to build a dynamic, interactive user interface with type-checking for a reliable and scalable application. React-Bootstrap: Implemented for a uniform look across the web app, ensuring a good user experience with pre-built design patterns and components. CSS Modules: Employed to locally scope CSS by automatically creating a unique class name for each style, ensuring that our styles are consistent and do not conflict with those in other parts of the application.</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/master/m4-gamingforthefuture/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m4-gamingforthefuture/techstack/</guid>
+      <description> Tech Stack For this project we used mainly the Unity Engine to develop the game. Other programs that we used were Figma,Photoshop. Sometimes we had to use Blender as well. Coding was done in Rider or Visual Studio. Music was produced with Fl Studo and Garageband. Discord and Zoom were used for communication.
+Tech Stack </description>
     </item>
     
     <item>
@@ -830,6 +942,15 @@ Zoom for our monday meetings Teams for our hybrid thursday meetings WhatsApp for
     
     <item>
       <title>Challenges</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/challenges/</guid>
+      <description>Getting to Grips with Unity Our journey into game development kicked off with Unity, and it was a learning curve. Understanding the ropes of this platform required time and effort, especially as we shifted from conventional programming mindsets. Yet, the more we dived in, the more we discovered Unity&amp;rsquo;s flexibility and the wealth of pre-packaged tools it offered, turning our initial challenges into stepping stones for growth. Mastering Multitouch In our quest to make games accessible to mobile players, we encountered the challenge of implementing multitouch functionality.</description>
+    </item>
+    
+    <item>
+      <title>Challenges</title>
       <link>https://chrisWolter.github.io/showtime-website/ss20/master/m3-mobile-image-organization/challenges/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -934,6 +1055,15 @@ Dashboard The dashboard is the heart of the App, providing organized shortcuts t
     </item>
     
     <item>
+      <title>Gameplay</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/master/m1-somethinar/gameplay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m1-somethinar/gameplay/</guid>
+      <description>Put your headset on and enter another world Pop on the Meta Quest headset and jump into a different world that&amp;rsquo;s full of fun and surprises. You&amp;rsquo;ll find yourself surronded by a virtual forest where you can explore, discover, and just have a good time with your friends. It&amp;rsquo;s not just about playing; it&amp;rsquo;s about stepping into a whole new place that feels as real as it is imaginative. Defend your space against little creatures Get ready to guard your territory!</description>
+    </item>
+    
+    <item>
       <title>Ideenfindung</title>
       <link>https://chrisWolter.github.io/showtime-website/ss20/bachelor/b1-hexarcade/idea-finding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -941,6 +1071,15 @@ Dashboard The dashboard is the heart of the App, providing organized shortcuts t
       <guid>https://chrisWolter.github.io/showtime-website/ss20/bachelor/b1-hexarcade/idea-finding/</guid>
       <description>Zu Beginn des Projektes, hatten wir noch keine klare Idee von dem Thema Motorik und Konzentration und wie wir ein dazu passendes Spiel bauen könnten. Deshalb lag unser Fokus am Anfang stark auf der Recherche zu diesem Thema, bevor wir begonnen haben Spieleideen zu sammeln.
 Recherche Wir hatten uns bereits früh darauf geeinigt, dass das Spiel auf Smartphones ausgerichtet sein soll. Aus diesem Grund haben wir uns explizit angesehen, was es bereits für Spiele auf diesen Geräten gibt, die in unsere Thematik passen könnten.</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/process/</guid>
+      <description>Our development journey can be broken down into distinct phases, each contributing to the evolution of our vision. Let&amp;rsquo;s explore the key milestones that shaped our project from its inception to the current stage. Preparation: Setting the Foundation Before diving into the technicalities, our team initiated the project by agreeing on a concrete problem within the realm of therapy that we aimed to solve. We defined major responsibilities, sharing our preferences and experiences to foster effective collaboration.</description>
     </item>
     
     <item>
@@ -1281,6 +1420,17 @@ Some of our sources are:</description>
     </item>
     
     <item>
+      <title>Processs</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/process/</guid>
+      <description>Process We dedicated initial time to conceptualising the idea for the plugin, exploring its potential impact and benefits. This involved learning from Moodle Academy about building Moodle plugins and creating first drafts to outline key functionalities.
+With a clearer vision, we strategically divided the overall idea into smaller, manageable tasks. Each task was designed to contribute to the overarching goal of the plugin.
+Adopting agile methodologies, we embraced a collaborative and iterative approach.</description>
+    </item>
+    
+    <item>
       <title>Product Vision</title>
       <link>https://chrisWolter.github.io/showtime-website/ss20/bachelor/b5-the-missing-tool-projekt/product-vision/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1296,6 +1446,16 @@ Some of our sources are:</description>
       
       <guid>https://chrisWolter.github.io/showtime-website/ss20/master/m3-mobile-image-organization/gallery/</guid>
       <description> </description>
+    </item>
+    
+    <item>
+      <title>Challenges</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/master/m1-somethinar/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m1-somethinar/challenges/</guid>
+      <description>Integrating Meta SDKs with Unity Integrating the Meta XR All-in-One SDK from Oculus presents its own set of challenges. The setup process for this package is complex and sometimes inconsistent. Developers are required to adhere to a strict implementation with limited flexibility for customization.
+Additionally, the SDK tends to generate an abundance of debug messages in the console, which are often unnecessary and can obscure more critical information. Another hurdle is the SDK&amp;rsquo;s &amp;ldquo;black box&amp;rdquo; backend, which can lead to mysterious errors without a clear source or solution.</description>
     </item>
     
     <item>
@@ -1378,6 +1538,15 @@ This had more than just one reason that all worked together to get to the final 
       
       <guid>https://chrisWolter.github.io/showtime-website/ws22/master/m3-bempsy-buddy/process/</guid>
       <description>⚙️ Workflow Tasks were divided for the backend and frontend team and documented on a kanban board on GitHub. Every thursday an one hour meeting took place with the product owner and the UX-designer to discuss progress and further tasks. This agile workflow made fast changes requested from the product owner possible. After the weekly meeting, the development team reviewed the meeting discussion again and distributed assignments among the members.</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/techstack/</guid>
+      <description> Tech Stack Our tech stack consists of the following tools &amp;amp; technologies: </description>
     </item>
     
     <item>
@@ -1770,6 +1939,16 @@ Da wäre zum einen ein Free Play-Modus. Statt von uns erstellten Leveln, werden 
     
     <item>
       <title>Future</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/future/</guid>
+      <description>Future NLP Integration:
+As part of our ongoing development, we are planning to extract keywords from learning materials on Moodle by converting PDF Files with educator’s learning materials into searchable text using a PDF Reader Library. Subsequently, we analyse the text for keywords using Natural Language Processing. This comprehensive approach ensures that the SmartLibrary plugin not only remains cutting-edge but also addresses diverse content formats, including PDF materials.</description>
+    </item>
+    
+    <item>
+      <title>Future</title>
       <link>https://chrisWolter.github.io/showtime-website/ss21/bachelor/b1-strollr-project/future/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -2051,12 +2230,31 @@ a possibility for them to connect with others in the same situation to exchange 
     </item>
     
     <item>
+      <title>Gameplay</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/gameplay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/gameplay/</guid>
+      <description>Bringing Bobola to Life It all started with a sweet idea - a cute main character, and you, the player, saving it. No time to waste, so we jumped into Unity, made our main character, Bobola, and got into coding. Urgency was our guide to keep things moving.
+Bobol&amp;#39;s Story To make the game more engaging, we introduced falling objects to save Bobola. Originally, we planned to use coconuts, but we stumbled upon spike shields in the Unity Asset Store.</description>
+    </item>
+    
+    <item>
       <title>Our Focus</title>
       <link>https://chrisWolter.github.io/showtime-website/ss20/bachelor/b5-the-missing-tool-projekt/our-focus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisWolter.github.io/showtime-website/ss20/bachelor/b5-the-missing-tool-projekt/our-focus/</guid>
       <description>Whatever you need, whenever you need it We made a huge progress in defining our final product vision when we asked ourselves what the specific use cases for our product were. We wanted to provide a tool that gives you the freedom to do what you need to do at the specific moment to make your group-project work, but that doesn&amp;rsquo;t overwhelm you with fancy features that you most likely won&amp;rsquo;t make any use of.</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/master/m1-somethinar/tech-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m1-somethinar/tech-stack/</guid>
+      <description>Game Engine Unity Unity provided the core framework for developing our game, offering both 2D and 3D capabilities essential for our project. Networking Photon Fusion 2 We chose Photon Fusion 2 for its handling capabilities of multiplayer game synchronization and networking. XR Interactions Meta XR All-in-One SDK The Meta XR All-in-One SDK was instrumental in implementing immersive XR interactions in our game. Concept &amp;amp; Design Figma Figma was our go-to tool for designing UI elements, thanks to its user-friendly interface and versatility.</description>
     </item>
     
     <item>
@@ -2128,6 +2326,25 @@ Frontend Vue.js To build the web user interface, we felt that Vue.js was suited 
       <guid>https://chrisWolter.github.io/showtime-website/ws21/bachelor/b1/use-cases/</guid>
       <description>Vibro2018 Use Case Case: Sam sees a video in which first a lion, then a lake is shown. Step 1 Sam enters “Lion“ into the Keyword Search.
 Step 2 He starts looking in the Result Map, but isn‘t satisfied with the results there so he thinks painting the lion would help. Sam goes to the Painting-Tool and starts drawing the lion. After he is done, he notes that the drawing didn‘t help him, so he hits UNDO.</description>
+    </item>
+    
+    <item>
+      <title>Future</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/master/m1-somethinar/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m1-somethinar/future/</guid>
+      <description>Further Potential of our Game During the initial stages of our game development, we brainstormed numerous ideas that, due to time constraints, couldn&amp;rsquo;t be realized in the current version. This section highlights some of these concepts to showcase the underlying potential and future directions our game could take. Collecting upgrades and special skills One idea we have is to introduce a system where players can collect upgrades and special skills throughout the game.</description>
+    </item>
+    
+    <item>
+      <title>Future</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/master/m4-gamingforthefuture/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/master/m4-gamingforthefuture/future/</guid>
+      <description>Future Prospect: Add visualisation of biodiversity aspects Further development of different levels Improvement of tile influence algorithm Further implementation of localization Gameplay improvement
+Where we’re at: Currently, Gaming for Future only contains one level for presentation purpose Algorithm for influence of each biome tile is developed Achieved our goal, which is to emphasize the crucial issue of water scarcity E-Mail collector is implemented Available only in 2 languages</description>
     </item>
     
     <item>
@@ -2380,6 +2597,15 @@ Old Car - VAZ 2107 by Arkady Gribachev</description>
     </item>
     
     <item>
+      <title>Challenges</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/challenges/</guid>
+      <description>Challenges: User Management: Balancing Complexity and Simplicity The intricacies of managing users across three categories—therapists, patients, and parents—demanded a delicate balance. Based on therapists&amp;rsquo; recommendations, we opted to allow patients and parents to share the same account, simplifying the user experience. However, creating a secure yet straightforward connection between therapists and patients posed a unique challenge. To streamline this, we implemented connection codes, enabling therapists to effortlessly initiate and secure connections with their patients during the first therapy session.</description>
+    </item>
+    
+    <item>
       <title>Concept gallery</title>
       <link>https://chrisWolter.github.io/showtime-website/ss20/master/m1-unhooked/concept/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2415,6 +2641,25 @@ Nataliia Alina Daria Leonie Egor Justin Minh Cong Schwerpunkte Nataliia - Geoloc
       <guid>https://chrisWolter.github.io/showtime-website/ss20/bachelor/b3-private-investors/design/</guid>
       <description>Die Entwicklung des Design der App ist einer der faszinierendsten Prozesse des gesamten Projekts. Es zeigt einem, wie gut man Farben kombinieren kann, wie man unterschiedlichen Formen fühlt, wie man Objekte auf der Seite zusammenstellen kann usw. Dies ist ein kreativer Prozess, an dem jeder teilnehmen kann, unabhängig davon, welches Wissen er besitzt. Er verbindet und gibt viel zum Nachdenken.
 Bei der Entwicklung unseres ersten Designs waren wir kaum beschränkt, sodass wir unserer Kreativität freien Lauf lassen konnten.</description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b6-avatavr/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b6-avatavr/features/</guid>
+      <description>The VR Testing Environment One goal of our project was to construct a virtual test environment where the interaction between a user and the instructor could be examined. The challenge consisted of creating such an environment while not making it distracting enough to turn the focus away from the character that has to be evaluated. For a majority of our testers this was the first time experiencing a surrounding in Virtual Reality Scene 1 Introduction inside the Apartment In this scene the player is greeted by the instructor, and asked to point out some different uses of electric current in a regular household.</description>
+    </item>
+    
+    <item>
+      <title>Future</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/future/</guid>
+      <description>As we reflect on our current achievements, we envision a future where our web application evolves into an essential tool for diverse forms of mental therapy. Here are key areas where we see potential for improvement: Therapy Session Calendar Streamlining Appointment Management
+To streamline the therapeutic process, we plan to incorporate a comprehensive Therapy Session Calendar. This feature would empower therapists and clients to create or request new appointments directly within the app.</description>
     </item>
     
     <item>
@@ -2520,6 +2765,16 @@ Diese Website verwendet keine Cookies und speichert keine Informationen, die üb
       <description>The source code for the frontend and backend is available at GitLab.
 Frontend: Gitlab frontend source code
 Backend: Gitlab backend source code</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b6-avatavr/tech-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisWolter.github.io/showtime-website/ws23/bachelor/b6-avatavr/tech-stack/</guid>
+      <description>The Oculus Headsets Thanks to the &amp;ldquo;Institut für Kultur und Informatik an der HTW Berlin&amp;rdquo;, which provided us with access to cutting-edge Oculus Headsets. The Quest 2 and Quest Pro, equipped with hand sensors, offered a seamless tracking experience, eliminating the need for external scanning setups. While these headsets proved to be revolutionary, navigating through app testing during the development phase presented its own set of challenges.
+Oculus Quest App Meta Developer Hub Building the VR Environment Due to the implementation of the OpenXR Library into the Game Engine Unity, we were able to develop an app that is able to be played on most of the VR Headsets available.</description>
     </item>
     
     <item>
