@@ -5,9 +5,6 @@ weight = 1
 
 {{<section title="Organisation and Communication">}}
 We used Mattermost for our internal communication and for issue tracking.
-{{<gallery>}}
-{{<image src="Mattermost.svg" alt="Mattermost Logo" caption="Mattermost">}}
-{{</gallery>}}
 {{</section>}}
 
 {{<section title="Development">}}
@@ -32,13 +29,6 @@ The Arduino was developed using the Arduino IDE
 
 - Programming Language: C++
 
-{{<gallery>}}
-{{<image src="Hololens.png" alt="Hololens Logo" caption="Hololens">}}
-{{<image src="MRTK.png" alt="MRTK Logo" caption="MRTK">}}
-{{<image src="Unity.png" alt="Unity Logo" caption="Unity">}}
-{{<image src="Debian.png" alt="Debian Logo" caption="Debian">}}
-{{<image src="Arduino.png" alt="Arduino IDE Logo" caption="Arduino IDE">}}
-{{</gallery>}}
 {{</section>}}
 
 {{<section title="Hardware">}}
