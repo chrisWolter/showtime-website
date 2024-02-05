@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <meta charset="UTF-8">
 
-<link rel="stylesheet" href="/showtime-website/css/style.min.9b1b84f3074375c47f892a256e7ca0d8d514f5b11e02003d6e395472ae589949.css" integrity="sha256-mxuE8wdDdcR/iSolbnyg2NUU9bEeAgA9bjlUcq5YmUk=" crossorigin="anonymous">
+<link rel="stylesheet" href="/showtime-website/css/style.min.ba1d873f3fee463758f69e85a69a38b2fc12ad7ebc4cdb7bf477bf4fcc4992d2.css" integrity="sha256-uh2HPz/uRjdY9p6Fppo4svwSrX68TNt79He/T8xJktI=" crossorigin="anonymous">
 
 
 <script src=https://chrisWolter.github.io/showtime-website/js/title-animate.js charset="utf-8"></script>
@@ -36,11 +36,8 @@
         <li><a href="https://chrisWolter.github.io/showtime-website/dates">Dates</a></li>
         
         
-        
-            
-            
-        
         <li><a href="/showtime-website/ss23">Archive</a></li>
+        
         <li><a href="https://chrisWolter.github.io/showtime-website/contact">Contact</a></li>
    </ul>
 </nav>
@@ -49,7 +46,7 @@
         <header class="project-header">
             <h1>
                 <span class="type">M3 Master</span>
-                LehrEinsatzPlanung
+                LEP
                 <span class="underscore-spacer"> </span>
             </h1>
             <section style="text-align: right;">
@@ -77,15 +74,15 @@
         <ul>
             <li ><a href="/showtime-website/ws23/master/m3-lep/">Overview</a></li>
             
-            <li ><a href="/showtime-website/ws23/master/m3-lep/challenges/">Challenges</a></li>
-            
             <li ><a href="/showtime-website/ws23/master/m3-lep/features/">Features</a></li>
-            
-            <li class="active"><a href="/showtime-website/ws23/master/m3-lep/future/">Future</a></li>
             
             <li ><a href="/showtime-website/ws23/master/m3-lep/process/">Process</a></li>
             
+            <li ><a href="/showtime-website/ws23/master/m3-lep/challenges/">Challenges</a></li>
+            
             <li ><a href="/showtime-website/ws23/master/m3-lep/techstack/">Tech Stack</a></li>
+            
+            <li class="active"><a href="/showtime-website/ws23/master/m3-lep/future/">Future</a></li>
             
         </ul>
     </div>
@@ -93,15 +90,9 @@
         <ul>
             <li ><a href="/showtime-website/ws23/master/m3-lep/">Overview</a></li>
             
-            <li ><a href="/showtime-website/ws23/master/m3-lep/challenges/">Challenges</a></li>
-            
             <li ><a href="/showtime-website/ws23/master/m3-lep/features/">Features</a></li>
             
-            <li class="active"><a href="/showtime-website/ws23/master/m3-lep/future/">Future</a></li>
-            
             <li ><a href="/showtime-website/ws23/master/m3-lep/process/">Process</a></li>
-            
-            <li ><a href="/showtime-website/ws23/master/m3-lep/techstack/">Tech Stack</a></li>
             
         </ul>
         <input type="checkbox" id="project-menu-button">
@@ -111,6 +102,12 @@
         <div class="dropdown-menu">
             <ul>
                 
+                <li ><a href="/showtime-website/ws23/master/m3-lep/challenges/">Challenges</a></li>
+                
+                <li ><a href="/showtime-website/ws23/master/m3-lep/techstack/">Tech Stack</a></li>
+                
+                <li class="active"><a href="/showtime-website/ws23/master/m3-lep/future/">Future</a></li>
+                
             </ul>
         </div>
     </div>
@@ -119,12 +116,71 @@
         <section>
     <h3>
         
-            Future
+            Consideration of further Rhythm Types
         
     </h3>
     <div class="spacer"></div>
     <div class="content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis.
+        In our <strong>current version</strong>, we&rsquo;ve handled regulations dealing with the most common rhythms, ensuring LEP factors in <strong>weekly and biweekly</strong>
+module planning for time collisions as well as special constraints.<br />
+We understand that exceptions, demand more consideration and code restructuring <strong>in future</strong> to enhance adaptability.
+Especially <strong>one-time events</strong> like introductions at the start of semester have to be handled differently as well as
+unique faculty-specific rhythms like <strong>3x6</strong>, where the module starts slightly delayed in the semester, initially five times
+every two weeks and then ends on a single day during the penultimate month of the semester.
+    </div>
+</section>
+
+<section>
+    <h3>
+        
+            Adapt to various teaching approaches
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        <strong>Modules taught by multiple teachers</strong> introduce complexities such as splitting SWS between them as well as conflict over
+time allocations for one single module. It&rsquo;s also worth expanding the case of teachers who <strong>teach across multiple courses</strong>
+as well as dealing with <strong>modules with longer duration</strong> over 5 hours, indicated by a higher sws number, which, as handled in manual planning,
+should be divided into at least two parts.<br />
+While our current version already takes this into account to a certain extent for some cases, these <strong>special cases</strong>
+require more consideration through <strong>additional boundary constraints</strong> and database <strong>model adjustments</strong>.<br />
+Future development iterations may go deeper into addressing these kind of cases, preparing for diverse teaching approaches,
+and acknowledging the more <strong>complex and dynamic parts</strong> of our university schedule planning.<br />
+    </div>
+</section>
+
+<section>
+    <h3>
+        
+            Improving Performance
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        Achieving optimal performance while solving a schedule remains our top priority.<br />
+As the <strong>demands increases</strong> on our tool with a growing number of modules and constraints, we&rsquo;ve encountering
+challenges in maintaining optimal performance with the default solver configuration of Timefold. Despite the initial efficiency,
+the <strong>increasing complexity</strong> has led to a slowdown.
+In future more time can be invested into these performance issues by trying out various <strong>optimizing algorithms</strong> and the use
+of the <em>Timefold</em> <a href="https://timefold.ai/docs/timefold-solver/latest/using-timefold-solver/benchmarking-and-tweaking#benchmarker"> Benchmarker</a> to ensure a quicker and more efficient timetable-solving process.
+    </div>
+</section>
+
+<section>
+    <h3>
+        
+            User-Friendly Enhancements
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        <p>A few small adjustments in the UI can be dealt with in future such as:</p>
+<ul>
+<li>Enhanced Visualization of overlapping modules in the timetable view if there are multiple modules in the same timeslot</li>
+<li>Giving Coordinators power to adjust and fine-tune the resulted timetable after solving, by providing options for changing the time of the module
+with an additional field in module planning or drag-and-drop options in the timetable view.</li>
+</ul>
+
     </div>
 </section>
 
