@@ -4,7 +4,7 @@
 # ./bin/check-project-update-pr/disk-usage.sh m3
 
 PID=$1
-SIZE=$(du -ks content/ws25/**/$PID-* | cut -f -1)
+SIZE=$(du -ks content/ss26/**/$PID-* | cut -f -1)
 LIMIT=500
 
 if [ "$SIZE" -le "$LIMIT" ]
