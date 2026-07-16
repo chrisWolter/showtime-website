@@ -5,7 +5,7 @@ draft = false
 +++
 
 {{<section title="Team ResQ">}}
-Das Team hinter dem ResQ-Framework besteht aus sechs Master-Studenten der HTW Berlin.
+Das Team hinter dem ResQ-Framework besteht aus sechs IMI-Master-Studenten.
 {{</section>}}
 
 {{<gallery>}}
