@@ -3,10 +3,8 @@ project_id = "M5"
 title = "ResQ: BYOD Public Display Game Framework"
 subtitle = "Lokaler Multiplayer für Messe-Crowds direkt im mobilen Browser. Keine App, kein Stress"
 
-# Properties for displaying the project in the project list
 card_image = "assets/resq_logo.webp"
 
-# Alphabetically sorted team list
 team = ["Luca Hobiger", "Lukas Kaik", "Felix Schindler", "Yan-Lennart Schwanbeck", "Christian Wolter", "Lucas Zaworski"]
 supervisor = ["Martin Steinicke", "Alexander Kramer"]
 draft = false
