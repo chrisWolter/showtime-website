@@ -39,8 +39,6 @@ In diesem Spiel beweisen die Mitspielnden ihre Kenntnisse in verschiedenen Brand
 Diesen Spieleklassiker haben wir als Koop-Spiel entwickelt, in welchem die Mitspielenden in Teams gegeneinander antreten. Sie stimmen ab und entscheiden gemeinsam, welche Karten aufgedeckt werden sollen.
 {{</section>}}
 
-{{<mediathek id="1e6347a8206cd49acc85f444b7039eeb" title="Wassermarsch in Aktion">}}
-
 
 {{<section title="Ausblick">}}
 **Erweiterbarkeit durch neue Spielmodule:** Die Architektur des Frameworks ist modular aufgebaut. Dadurch können neue Minispiele und Spielideen unkompliziert hinzugefügt werden.
