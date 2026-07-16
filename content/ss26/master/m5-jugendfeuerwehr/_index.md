@@ -13,7 +13,7 @@ website_link = ""
 source_link = ""
 +++
 
-{{<image src="assets/resq_logo.webp" alt="ResQ Logo">}}
+{{<image src="assets/resq_logo.webp">}}
 
 {{<section title="Herausforderung">}}
 Wie gelingt es auf Messen, Ausstellungen oder öffentlichen Events, eine große Gruppe von Menschen spontan und aktiv in ein interaktives Multiplayer-Erlebnis einzubinden? Herkömmliche Setups scheitern oft an mangelhafter oder fehlender Internetverbindung, oder daran, dass Nutzer vorab extra eine App herunterladen müssen. 
