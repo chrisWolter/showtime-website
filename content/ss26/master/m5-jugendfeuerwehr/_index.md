@@ -33,7 +33,7 @@ In diesem Spiel steuern die Mitspielenden über ein stark vereinfachtes digitale
 
 In diesem Spiel beweisen die Mitspielenden ihre Kenntnisse in verschiedenen Brandszenarien, auf welche Weise ein Feuer gelöscht werden muss.
 
-## Memory (reimagined)
+## Feuerwehr-Memory
 
 Diesen Spieleklassiker haben wir als Koop-Spiel entwickelt, in welchem die Mitspielenden in Teams gegeneinander antreten. Sie stimmen ab und entscheiden gemeinsam, welche Karten aufgedeckt werden sollen.
 {{</section>}}
