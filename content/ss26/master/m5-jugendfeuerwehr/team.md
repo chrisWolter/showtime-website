@@ -4,9 +4,9 @@ weight = 50
 draft = false
 +++
 
-{{<section title="Team ResQ">}}
-Das Team hinter dem ResQ-Framework besteht aus sechs IMI-Master-Studenten.
-{{</section>}}
+# Das Team
+#### Liste beziehungsweise ein Test, wie man die scheiß Website kacke und Layout schitt umgehen kann.
+
 
 {{<gallery>}}
 {{<team-member image="assets/team/luca.webp" name="Luca Hobiger">}}

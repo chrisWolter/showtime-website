@@ -29,13 +29,19 @@ Um das ResQ-Framework auf Herz und Nieren zu prüfen und zu demonstrieren, was u
 
 In diesem Spiel steuern die Mitspielenden über ein stark vereinfachtes digitales Gamepad auf ihrem eigenen Smartphone Feuerwehr-Figuren auf dem Main Screen. Das Ziel: Brände zu löschen, ohne sich dabei gegenseitig in die Quere zu kommen.
 
+Eine Demo zum Spiel gibt es hier: [Demo Wassermarsch]({{< relref "demo#wasser-marsch" >}})
+
 ## Lösch-Quiz
 
 In diesem Spiel beweisen die Mitspielenden ihre Kenntnisse in verschiedenen Brandszenarien, auf welche Weise ein Feuer gelöscht werden muss.
 
+Eine Demo zum Spiel gibt es hier: [Demo Lösch-Quiz]({{< relref "demo#lösch-quiz" >}})
+
 ## Feuerwehr-Memory
 
 Diesen Spieleklassiker haben wir als Koop-Spiel entwickelt, in welchem die Mitspielenden in Teams gegeneinander antreten. Sie stimmen ab und entscheiden gemeinsam, welche Karten aufgedeckt werden sollen.
+
+Eine Demo zum Spiel gibt es hier: [Demo Feuerwehr-Memory]({{< relref "demo#feuerwehr-memory" >}})
 {{</section>}}
 
 {{<section title="Ausblick">}}
