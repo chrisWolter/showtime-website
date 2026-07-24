@@ -33,12 +33,12 @@ Der Flow-Wert ist die niedrigste unserer drei Kategorien und das ist für ein Wa
 {{</section>}}
 
 {{<section title="Beobachtungen">}}
-Was der Fragebogen nicht abbildet, war im Raum deutlich zu hören: viel Gelächter, ein „Ach wie cute!" beim ersten Beta-Test – und immer wieder die Frage „Können wir noch eine Runde spielen?". Für ein Spiel, dessen einziger Zweck es ist, Wartezeit zu überbrücken, ist diese Frage das eigentliche Ergebnis.
+Was der Fragebogen nicht abbildet, war im Raum deutlich zu hören: viel Gelächter, ein „Ach wie cute!" beim ersten Beta-Test sowie immer wieder die Frage „Können wir noch eine Runde spielen?". Für ein Spiel, dessen einziger Zweck es ist, Wartezeit zu überbrücken, ist diese Frage das eigentliche Ergebnis.
 
 {{</section>}}
 
 {{<section title="Mit IMI-Studierenden">}}
-Ein zweiter Test mit Studierenden aus dem IMI-Studiengang – zielgruppenfern, aber genau deshalb wertvoll: Es ging nicht um Spielspaß, sondern um Interaktionsformen und Stabilität. Die Gruppe hat systematisch Bugs gefunden, die uns im Zielgruppentest entgangen waren.
+Ein zweiter Test mit Studierenden aus dem IMI-Studiengang, zielgruppenfern, aber genau deshalb wertvoll: Es ging nicht um Spielspaß, sondern um Interaktionsformen und Stabilität. Die Gruppe hat systematisch Bugs gefunden, die uns im Zielgruppentest entgangen waren.
 
 
 | Kategorie   |      Ergebnis      |
@@ -47,7 +47,7 @@ Ein zweiter Test mit Studierenden aus dem IMI-Studiengang – zielgruppenfern, a
 | Immersion |    2,94 von 5   | 
 | Flow | 2,62 von 5| 
 
-Die Werte liegen durchgängig unter denen der Zielgruppe – vor allem wegen der gefundenen Bugs. Wir zeigen sie trotzdem, weil genau diese Lücke der Zweck des Tests war.
+Die Werte liegen durchgängig unter denen der Zielgruppe, vor allem wegen der gefundenen Bugs. Wir zeigen sie trotzdem, weil genau diese Lücke der Zweck des Tests war.
 
 Auf Basis des Feedbacks der IMI-Studierenden haben wir die Bewegungsphysik der Steuerung präziser abgestimmt, die Punkteanzeige direkt im UI sichtbar gemacht und das Objekt-Spawning auf der Karte optimiert.
 {{</section>}}

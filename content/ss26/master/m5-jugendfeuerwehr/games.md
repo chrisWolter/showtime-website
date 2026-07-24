@@ -7,7 +7,7 @@ draft = false
 # Die Spiele
 
 # Wasser-Marsch
-Das erste Spiel. Brandbekämpfung auf Zeit, gegen- und miteinander. Steuerung über digitalen Joystick und Aktionsbutton. Version 0.0.2: HLFs, vollständige Map, Spielerfarben, Animationen für Punktgewinn und -verlust, Sterne bei Kollisionen.
+Das erste Spiel. Brandbekämpfung auf Zeit, gegeneinander und miteinander. Steuerung über digitalen Joystick und Aktionsbutton. Version 0.0.2: HLFs, vollständige Map, Spielerfarben, Animationen für Punktgewinn und Punktverlust, Sterne bei Kollisionen.
 
 {{<mediathek id="e0ac335472fe64a409e5b43ca09a4203">}}
 

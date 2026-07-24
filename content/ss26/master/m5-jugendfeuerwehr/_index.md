@@ -2,7 +2,7 @@
 project_id = "M5"
 title = "ResQ: BYOD Public Game Framework"
 subtitle = "Lokaler Multiplayer für Messe-Crowds. Direkt im mobilen Browser."
-claim = "Eine Spieleplattform für die Warteschlange am Messestand der Jugendfeuerwehr. Kein App-Store, kein Internet, kein Login – QR-Code scannen und mitspielen."
+claim = "Eine Spieleplattform für die Warteschlange am Messestand der Jugendfeuerwehr. Kein App-Store, kein Internet, kein Login: QR-Code scannen und mitspielen."
 
 card_image = "assets/resq_logo.webp"
 
@@ -26,20 +26,20 @@ Unsere Frage war deshalb nicht „Wie bauen wir ein Feuerwehrspiel?", sondern: W
 {{</section>}}
 
 {{<section title="Die Lösung">}}
-Ein Public Game, das direkt in der Warteschlange gespielt wird – auf den Handys, die die Kinder ohnehin dabeihaben, auf einem großen Bildschirm am Stand gespiegelt. Der positive Nebeneffekt: Der Bildschirm wirkt selbst als Honeypot und zieht weitere Besucher an.
+Ein Public Game, das direkt in der Warteschlange gespielt wird, auf den Handys, die die Kinder ohnehin dabeihaben, auf einem großen Bildschirm am Stand gespiegelt. Der positive Nebeneffekt: Der Bildschirm wirkt selbst als Honeypot und zieht weitere Besucher an.
 
-Aus dieser Idee ist mehr geworden als ein Spiel. ResQ ist ein Framework, mit dem sich beliebig viele Minispiele in dieselbe Loop einhängen lassen – aktuell sind es vier.
+Aus dieser Idee ist mehr geworden als ein Spiel. ResQ ist ein Framework, mit dem sich beliebig viele Minispiele in dieselbe Loop einhängen lassen. Aktuell sind es vier.
 {{</section>}}
 
 {{<section title="Kernanforderung">}}
 {{</section>}}
 
 {{<gallery>}}
-{{<image src="assets/icons/wifi.webp" alt="Wifi" caption="Ohne Internet – eigenes WLAN vor Ort, kein Mobilfunk nötig">}}
-{{<image src="assets/icons/arrow-down-up.webp" alt="Drop-In & Drop-Out" caption="Drop-In & Drop-Out – wer dran ist, geht einfach; das Spiel läuft weiter">}}
-{{<image src="assets/icons/people.webp" alt="Große Gruppen" caption="Große Gruppen – ausgelegt auf viele gleichzeitige Spieler">}}
-{{<image src="assets/icons/phone.webp" alt="BYOD" caption="BYOD – kein Gerät stellen, keine Installation">}}
-{{<image src="assets/icons/joystick.webp" alt="Replay-Value" caption="Replay-Value – Abwechslung durch wechselnde Spiele">}}
+{{<image src="assets/icons/wifi.webp" alt="Wifi" caption="Ohne Internet: eigenes WLAN vor Ort, kein Mobilfunk nötig">}}
+{{<image src="assets/icons/arrow-down-up.webp" alt="Drop-In & Drop-Out" caption="Drop-In & Drop-Out: Wer dran ist, geht einfach; das Spiel läuft weiter">}}
+{{<image src="assets/icons/people.webp" alt="Große Gruppen" caption="Große Gruppen: ausgelegt auf viele gleichzeitige Spieler">}}
+{{<image src="assets/icons/phone.webp" alt="BYOD" caption="BYOD: kein Gerät stellen, keine Installation">}}
+{{<image src="assets/icons/joystick.webp" alt="Replay-Value" caption="Replay-Value: Abwechslung durch wechselnde Spiele">}}
 {{</gallery>}}
 
 {{<section title="Ergebnisse in Zahlen">}}
