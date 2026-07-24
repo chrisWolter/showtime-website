@@ -58,6 +58,8 @@ Die erste Version stand als klassischer Prototyp: ein MainScreen für den große
 {{<section title="Phase 5 – Beta-Test in Luckenwalde">}}
 Mit v0.0.1 sind wir zurück nach Luckenwalde. Der Test hatte drei Ziele: die Spielidee validieren, die Interaktionsform bestätigen und die Verbindungsstabilität unter realen Bedingungen prüfen.
 
+Der Beta-Test bestätigte zwar die Spielidee, zeigte jedoch Schwachstellen beim Verbindungsaufbau und Aufklärungsbedarf bei der Steuerung.
+
 {{</section>}}
 
 

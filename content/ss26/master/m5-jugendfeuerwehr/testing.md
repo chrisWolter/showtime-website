@@ -20,6 +20,15 @@ Zwei Testtermine bei der Jugendfeuerwehr Luckenwalde mit unterschiedlichen Spiel
 | Immersion |    3,49 von 5   | 
 | Flow | 3,13 von 5 | 
 
+## Der Fragebogen:
+Zur Evaluierung haben wir den standardisierten Game Experience Questionnaire (GEQ) verwendet und auf eine 5-stufige Likert-Skala (1 = gar nicht bis 5 = extrem) skaliert.
+
+Was die drei Kategorien messen:
+
+- Positive Affection: Misst den wahrgenommenen Spielspaß, Freude und die allgemeine positive Stimmung während des Spielens.
+- Immersion: Misst das visuelle und gedankliche Eintauchen der Spielenden in die Spielwelt.
+- Flow: Erfasst den Zustand müheloser Konzentration und wie stark die Umgebung während des Spielens vergessen wird.
+
 Der Flow-Wert ist die niedrigste unserer drei Kategorien und das ist für ein Warteschlangenspiel weniger problematisch, als es zunächst klingt. Tiefer Flow bedeutet, dass Spielende die Umgebung ausblenden. Genau das darf hier nicht passieren.
 {{</section>}}
 
@@ -39,10 +48,13 @@ Ein zweiter Test mit Studierenden aus dem IMI-Studiengang – zielgruppenfern, a
 | Flow | 2,62 von 5| 
 
 Die Werte liegen durchgängig unter denen der Zielgruppe – vor allem wegen der gefundenen Bugs. Wir zeigen sie trotzdem, weil genau diese Lücke der Zweck des Tests war.
+
+Auf Basis des Feedbacks der IMI-Studierenden haben wir die Bewegungsphysik der Steuerung präziser abgestimmt, die Punkteanzeige direkt im UI sichtbar gemacht und das Objekt-Spawning auf der Karte optimiert.
 {{</section>}}
 
 {{<section title="Testimonial">}}
-> „Ich selbst […] war davon begeistert." „Weiter so und gerne noch etwas mehr von solchen tollen Spielen."
+> „Ich selbst konnte dem Ereignis als passive Person zusehen und war davon begeistert." 
+> „Weiter so und gerne noch etwas mehr von solchen tollen Spielen."
 
 André, Berufsfeuerwehrmann bei der Feuerwehr Luckenwalde und unsere Ansprechperson vor Ort
 
