@@ -43,9 +43,9 @@ Aus dieser Idee ist mehr geworden als ein Spiel. ResQ ist ein Framework, mit dem
 {{</gallery>}}
 
 {{<section title="Ergebnisse in Zahlen">}}
-1. 4 Minispiele
-2. 3 Dateien, um ein neues Spiel anzubinden
-3. 16 Kinder im Nutzertest
-4. 11 konzipierte Spielideen
+1. **4** Minispiele
+2. **3** Dateien, um ein neues Spiel anzubinden
+3. **16** Kinder im Nutzertest
+4. **11** konzipierte Spielideen
 
 {{</section>}}
