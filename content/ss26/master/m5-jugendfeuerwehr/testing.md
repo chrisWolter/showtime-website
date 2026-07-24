@@ -5,7 +5,7 @@ draft = false
 +++
 
 # Nutzertests
-## Um unsere Konzepte zu validieren gab es mehrere User-Tests
+## Um unsere Konzepte zu validieren, gab es mehrere User-Tests
 
 {{<section title="Ziel">}}
 Drei Dinge wollten wir wissen: Trägt die Spielidee? Funktioniert der digitale Joystick als Steuerung? Und bleibt die Verbindung stabil, wenn viele Geräte gleichzeitig im lokalen Netz hängen?

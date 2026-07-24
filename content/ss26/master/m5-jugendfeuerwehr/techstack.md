@@ -1,10 +1,10 @@
 +++
-title = "Techstack"
+title = "Tech-Stack"
 weight = 50
 draft = false
 +++
 
-# Techstack
+# Tech-Stack
 ## Wir haben den Stack nach drei Kriterien ausgewählt: Wie schnell ist er erlernbar? Wie verbreitet ist er, gibt es also gute Dokumentation? Und wie viel Erfahrung war im Team bereits vorhanden?
 
 
@@ -22,7 +22,7 @@ draft = false
 
 {{<section title="DevOps">}}
 * **GitLab**: Projektmanagement und Source-Code Verwaltung
-* **CI/CD & Docker Registry**: Automatisiertes Überprüfen der Code-Qualität sowie Bauen und Veröffentlichen von Docker-Images in FKI-Docker-Registry
+* **CI/CD & Docker Registry**: Automatisiertes Überprüfen der Code-Qualität sowie Bauen und Veröffentlichen von Docker-Images in der FKI-Docker-Registry
 {{</section>}}
 
 {{<section title="Design & Asset-Erstellung">}}
@@ -36,5 +36,5 @@ draft = false
 {{<section title="Kollaboration & Dokumentation">}}
 * **Mattermost**: Kommunikation mit den Projektbetreuern
 * **Discord**: Diente als unsere primäre Kommunikationsplattform für die täglichen Absprachen, schnellen Abstimmungen und die Koordination der Aufgabenverteilung. Außerdem wöchentliche Meetings und durch Webhooks automatisierte Benachrichtigungen für Issues und Merge-Requests durch GitLab.
-* **Google Drive**: Nutzten wir zur kollaborativen Erstellung und Strukturierung unserer Projektdokumentation sowie zum Austausch und zur Ablage von Dokumenten wie Protokolle und Umfrageergebnisse.
+* **Google Drive**: Nutzten wir zur kollaborativen Erstellung und Strukturierung unserer Projektdokumentation sowie zum Austausch und zur Ablage von Dokumenten wie Protokollen und Umfrageergebnissen.
 {{</section>}}
