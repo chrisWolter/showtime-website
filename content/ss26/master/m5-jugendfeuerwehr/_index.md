@@ -1,8 +1,8 @@
 +++
 project_id = "M5"
-title = "ResQ: BYOD Public Display Game Framework"
-subtitle = "Lokaler Multiplayer für Messe-Crowds"
-claim = "Direkt im mobilen Browser. Keine App, kein Stress!"
+title = "ResQ: BYOD Public Game Framework"
+subtitle = "Lokaler Multiplayer für Messe-Crowds. Direkt im mobilen Browser."
+claim = "Eine Spieleplattform für die Warteschlange am Messestand der Jugendfeuerwehr. Kein App-Store, kein Internet, kein Login – QR-Code scannen und mitspielen."
 
 card_image = "assets/resq_logo.webp"
 
@@ -17,33 +17,35 @@ source_link = ""
 {{<image src="assets/resq_logo.webp">}}
 
 {{<section title="Herausforderung">}}
-Wie gelingt es auf Messen, Ausstellungen oder öffentlichen Events, eine große Gruppe von Menschen spontan und aktiv in ein interaktives Multiplayer-Erlebnis einzubinden? Herkömmliche Setups scheitern oft an mangelhafter oder fehlender Internetverbindung, oder daran, dass Nutzer vorab extra eine App herunterladen müssen.
+Die Jugendfeuerwehr Luckenwalde sucht Nachwuchs. Ihre Messestände ziehen Aufmerksamkeit an: Kinder wollen das Feuerwehrauto sehen, wollen anfassen, ausprobieren. Aber es passen nicht alle gleichzeitig hinein, und ein Team aus Ehrenamtlichen kann nicht alle gleichzeitig betreuen.
 
-Hier setzt das von uns entwickelte ResQ-Framework an. Ursprünglich als interaktiver Anziehungspunkt zur Nachwuchsgewinnung für die Jugendfeuerwehr konzipiert, bietet ResQ eine einfach erweiterbare Plattform für lokale Multiplayer-Spiele. Das Framework übernimmt die anspruchsvollen Hintergrundprozesse: Es automatisiert das Session-Management, das Display Management auf Main- und Device-Screen und regelt das dynamische Ein- und Auswählen von Spielern. So können sich Spieleentwickler auf die Implementierung neuer Game-Logik fokussieren.
+Damit entsteht ein Problem, das niemand auf dem Zettel hat: die Warteschlange. Wer wartet, langweilt sich. Wer sich langweilt, geht.
+
+Unsere Frage war deshalb nicht „Wie bauen wir ein Feuerwehrspiel?", sondern: Wie halten wir die Kinder bei Laune, die gerade nicht dran sind?
+
 {{</section>}}
 
-{{<section title="Proof of Concept">}}
-Um das ResQ-Framework auf Herz und Nieren zu prüfen und zu demonstrieren, was unter der Haube steckt, haben wir verschiedene Mini-Spiele entwickelt.
+{{<section title="Die Lösung">}}
+Ein Public Game, das direkt in der Warteschlange gespielt wird – auf den Handys, die die Kinder ohnehin dabeihaben, auf einem großen Bildschirm am Stand gespiegelt. Der positive Nebeneffekt: Der Bildschirm wirkt selbst als Honeypot und zieht weitere Besucher an.
 
-## Wassermarsch
-
-In diesem Spiel steuern die Mitspielenden über ein stark vereinfachtes digitales Gamepad auf ihrem eigenen Smartphone Feuerwehr-Figuren auf dem Main Screen. Das Ziel: Brände zu löschen, ohne sich dabei gegenseitig in die Quere zu kommen.
-
-Eine Demo zum Spiel gibt es hier: [Demo Wassermarsch]({{< relref "demo#wasser-marsch" >}})
-
-## Lösch-Quiz
-
-In diesem Spiel beweisen die Mitspielenden ihre Kenntnisse in verschiedenen Brandszenarien, auf welche Weise ein Feuer gelöscht werden muss.
-
-Eine Demo zum Spiel gibt es hier: [Demo Lösch-Quiz]({{< relref "demo#lösch-quiz" >}})
-
-## Feuerwehr-Memory
-
-Diesen Spieleklassiker haben wir als Koop-Spiel entwickelt, in welchem die Mitspielenden in Teams gegeneinander antreten. Sie stimmen ab und entscheiden gemeinsam, welche Karten aufgedeckt werden sollen.
-
-Eine Demo zum Spiel gibt es hier: [Demo Feuerwehr-Memory]({{< relref "demo#feuerwehr-memory" >}})
+Aus dieser Idee ist mehr geworden als ein Spiel. ResQ ist ein Framework, mit dem sich beliebig viele Minispiele in dieselbe Loop einhängen lassen – aktuell sind es vier.
 {{</section>}}
 
-{{<section title="Ausblick">}}
-**Erweiterbarkeit durch neue Spielmodule:** Die Architektur des Frameworks ist modular aufgebaut. Dadurch können neue Minispiele und Spielideen unkompliziert hinzugefügt werden.
+{{<section title="Kernanforderung">}}
+{{</section>}}
+
+{{<gallery>}}
+{{<image src="assets/icons/wifi.webp" alt="Wifi" caption="Ohne Internet – eigenes WLAN vor Ort, kein Mobilfunk nötig">}}
+{{<image src="assets/icons/arrow-down-up.webp" alt="Drop-In & Drop-Out" caption="Drop-In & Drop-Out – wer dran ist, geht einfach; das Spiel läuft weiter">}}
+{{<image src="assets/icons/people.webp" alt="Große Gruppen" caption="Große Gruppen – ausgelegt auf viele gleichzeitige Spieler">}}
+{{<image src="assets/icons/phone.webp" alt="BYOD" caption="BYOD – kein Gerät stellen, keine Installation">}}
+{{<image src="assets/icons/joystick.webp" alt="Replay-Value" caption="Replay-Value – Abwechslung durch wechselnde Spiele">}}
+{{</gallery>}}
+
+{{<section title="Ergebnisse in Zahlen">}}
+1. 4 Minispiele
+2. 3 Dateien, um ein neues Spiel anzubinden
+3. 16 Kinder im Nutzertest
+4. 11 konzipierte Spielideen
+
 {{</section>}}

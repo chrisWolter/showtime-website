@@ -1,11 +1,10 @@
 +++
 title = "Team"
-weight = 50
+weight = 60
 draft = false
 +++
 
-# Das Team
-#### Liste beziehungsweise ein Test, wie man die scheiß Website kacke und Layout schitt umgehen kann.
+# Das Team hinter ResQ
 
 
 {{<gallery>}}

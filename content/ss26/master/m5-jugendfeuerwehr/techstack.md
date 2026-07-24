@@ -1,8 +1,12 @@
 +++
 title = "Techstack"
-weight = 30
+weight = 50
 draft = false
 +++
+
+# Techstack
+## Wir haben den Stack nach drei Kriterien ausgewählt: Wie schnell ist er erlernbar? Wie verbreitet ist er, gibt es also gute Dokumentation? Und wie viel Erfahrung war im Team bereits vorhanden?
+
 
 {{<section title="Backend-Entwicklung">}}
 * **Node.js** – Serverseitige JavaScript-Laufzeitumgebung
