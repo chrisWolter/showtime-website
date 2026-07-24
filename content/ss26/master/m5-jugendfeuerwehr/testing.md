@@ -12,7 +12,7 @@ Drei Dinge wollten wir wissen: Trägt die Spielidee? Funktioniert der digitale J
 {{</section>}}
 
 {{<section title="Mit der Zielgruppe">}}
-Zwei Testtermine bei der Jugendfeuerwehr Luckenwalde mit unterschiedlichen Spielständen. Insgesamt haben 16 Kinder gespielt und anschließend den "Game Experience Questionnaire" ausgefüllt.
+Zwei Testtermine bei der Jugendfeuerwehr Luckenwalde mit unterschiedlichen Spielständen. Insgesamt haben **16 Kinder** gespielt und anschließend den "Game Experience Questionnaire" ausgefüllt.
 
 | Kategorie   |      Ergebnis      |
 |----------|:-------------:|
