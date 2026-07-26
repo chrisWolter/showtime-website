@@ -22,7 +22,7 @@ Die Jugendfeuerwehr Luckenwalde sucht Nachwuchs und ist dabei sowohl auf Messen 
 {{</section>}}
 
 {{<section title="Die Lösung">}}
-Die Lösung des Problems ist ein Public Game, welches direkt in der Warteschlange gespielt wird. Die Kinder und Jugendlichen verwenden dafür ihre eigenen Handys zur Steuerung und spielen gemeinsam auf einem großen Bildschirm am Messestand. Dabei entseht zusätzlich der positive Nebeneffekt, dass das der große Bildschirm und das Spielgesschehen als Honeypot fungieren und zusätzlich weitere Besucher anziehen.
+Die Lösung des Problems ist ein Public Game, welches direkt in der Warteschlange gespielt wird. Die Kinder und Jugendlichen verwenden dafür ihre eigenen Handys zur Steuerung und spielen gemeinsam auf einem großen Bildschirm am Messestand. Dabei entsteht zusätzlich der positive Nebeneffekt, dass der große Bildschirm und das Spielgeschehen als Honeypot fungieren und zusätzlich weitere Besucher anziehen.
 
 Aus dieser Idee mehr geworden als ein Spiel. Wir haben uns während des Projektverlaufs dazu entschieden ein Framework zu entwickeln, mit dem sich beliebig viele Minispiele einhängen lassen.
 {{</section>}}
