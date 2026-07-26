@@ -29,7 +29,7 @@ Dabei haben wir uns auf die folgenden drei Kategorien fokussiert:
 {{</section>}}
 
 {{<section title="Tests mit unserer Zielgruppe">}}
-An zwei Terminen konnten wir bei der Jugendfeuerwehr Luckenwalde mit insgesamt **16 Kinder** unser Spiel Wassermarsch testen. Der Gesamtwert unserer Testergebnisse zeigt, dass das Spielen von Wassermarsch den Kindern viel Freude bereitet hat.
+An zwei Terminen konnten wir bei der Jugendfeuerwehr Luckenwalde mit insgesamt **16 Kindern** unser Spiel Wassermarsch testen. Der Gesamtwert unserer Testergebnisse zeigt, dass das Spielen von Wassermarsch den Kindern viel Freude bereitet hat.
 
 | Kategorie          | Ergebnis   |
 | ------------------ | ---------- |
