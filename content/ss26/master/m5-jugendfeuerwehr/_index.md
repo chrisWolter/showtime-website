@@ -35,7 +35,7 @@ Aus dieser Idee ist mehr geworden als ein Spiel. Wir haben uns während des Proj
 {{<image src="assets/icons/arrow-down-up.webp" alt="Drop-In & Drop-Out" caption="Spielende können jederzeit beitreten oder das Spiel verlassen">}}
 {{<image src="assets/icons/phone.webp" alt="BYOD" caption="Eigene Handys als Spielsteuerung">}}
 {{<image src="assets/icons/people.webp" alt="Große Gruppen" caption="Viele Spielende gleichzeitig">}}
-{{<image src="assets/icons/joystick.webp" alt="Replay-Value" caption="Abwechslung durch verschiende Spiele">}}
+{{<image src="assets/icons/joystick.webp" alt="Replay-Value" caption="Abwechslung durch verschiedene Spiele">}}
 {{</gallery>}}
 
 {{<section title="Ergebnis">}}
