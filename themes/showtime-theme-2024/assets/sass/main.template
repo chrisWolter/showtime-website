@@ -846,6 +846,15 @@ span.subtitle {
         }
     }
 
+    table {
+        border-collapse: collapse;
+
+        th, td {
+            padding: 0.5rem 1.5rem 0.5rem 0;
+            text-align: left;
+        }
+    }
+
     .infobox {
         border: 0.3rem solid $color-primary;
         padding: 1.5rem;

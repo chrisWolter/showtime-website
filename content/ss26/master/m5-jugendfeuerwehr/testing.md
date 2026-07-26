@@ -31,8 +31,8 @@ Dabei haben wir uns auf die folgenden drei Kategorien fokussiert:
 {{<section title="Tests mit unserer Zielgruppe">}}
 An zwei Terminen konnten wir bei der Jugendfeuerwehr Luckenwalde mit insgesamt **16 Kinder** unser Spiel Wassermarsch testen. Der Gesamtwert unserer Testergebnisse zeigt, dass das Spielen von Wassermarsch den Kindern viel Freude bereitet hat.
 
-| Kategorie          |  Ergebnis  |
-| ------------------ | :--------: |
+| Kategorie          | Ergebnis   |
+| ------------------ | ---------- |
 | Positive Affection | 4,12 von 5 |
 | Immersion          | 3,49 von 5 |
 | Flow               | 3,13 von 5 |
@@ -49,8 +49,8 @@ Was der Fragebogen nicht abbildet, war im Raum deutlich zu hören: viel Gelächt
 {{<section title="Test mit IMI-Studierenden">}}
 Zusätzlich zu den Zielgruppentests konnten wir einen weiteren Tests mit Studierenden aus dem IMI-Studiengang durchführen. Auch hier konnten wir die Interaktionsformen und Stabilität überprüfen.
 
-| Kategorie          |  Ergebnis  |
-| ------------------ | :--------: |
+| Kategorie          | Ergebnis   |
+| ------------------ | ---------- |
 | Positive Affection | 3,56 von 5 |
 | Immersion          | 2,94 von 5 |
 | Flow               | 2,62 von 5 |
@@ -61,9 +61,8 @@ Die Werte liegen durchgängig unter denen der Zielgruppe, vor allem wegen der zu
 
 {{<section title="Stimmen">}}
 
-> „Ich selbst konnte dem Ereignis als passive Person zusehen und war davon begeistert."
-> „Weiter so und gerne noch etwas mehr von solchen tollen Spielen."
+{{<image src="assets/andre.webp" alt="Berufsfeuerwehrmann Andre" caption="André, Berufsfeuerwehrmann bei der Feuerwehr Luckenwalde und unsere Ansprechperson vor Ort">}}
 
-André, Berufsfeuerwehrmann bei der Feuerwehr Luckenwalde und unsere Ansprechperson vor Ort
+> „Ich selbst konnte dem Ereignis als passive Person zusehen und war davon begeistert. Weiter so und gerne noch etwas mehr von solchen tollen Spielen."
 
 {{</section>}}
