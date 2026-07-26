@@ -24,7 +24,7 @@ Die Jugendfeuerwehr Luckenwalde sucht Nachwuchs und ist dabei sowohl auf Messen 
 {{<section title="Die Lösung">}}
 Die Lösung des Problems ist ein Public Game, welches direkt in der Warteschlange gespielt wird. Die Kinder und Jugendlichen verwenden dafür ihre eigenen Handys zur Steuerung und spielen gemeinsam auf einem großen Bildschirm am Messestand. Dabei entsteht zusätzlich der positive Nebeneffekt, dass der große Bildschirm und das Spielgeschehen als Honeypot fungieren und zusätzlich weitere Besucher anziehen.
 
-Aus dieser Idee ist mehr geworden als ein Spiel. Wir haben uns während des Projektverlaufs dazu entschieden ein Framework zu entwickeln, mit dem sich beliebig viele Minispiele einhängen lassen.
+Aus dieser Idee ist mehr geworden als ein Spiel. Wir haben uns während des Projektverlaufs dazu entschieden, ein Framework zu entwickeln, mit dem sich beliebig viele Minispiele einhängen lassen.
 {{</section>}}
 
 {{<section title="Kernanforderung">}}
@@ -52,8 +52,8 @@ Das Kernstück des Projekts bildet eine plattformunabhängige Systemarchitektur 
 ## 2. Vier spielbare Minispiele
 Um die Bandbreite und Flexibilität des Frameworks direkt in der Praxis zu zeigen, wurden insgesamt vier unterschiedliche Spielmodule umgesetzt:
 
-- **Wassermarsch:** Brandbekämpfung auf Zeit. An den Hilfslöschfahrzeugen (HLF) kann Wasser geholt werden mit dem sich die Brände löschen lassen. Für das Löschen der Brände gibt es Punkte, wobei das Zusammenstoßen mit anderen Spielern zu Minuspunkten und Wasserverlust führt.
-- **Lösch-Quiz:** Im Löschquiz antworten alle Teilnehmenden gleichzeitig auf Wissensfragen rund um Feuerwehr und richtiges Verhalten im Brandfall. Für die korrekte Antwort gibt es Punkte. Außerdem gibt es einen Geschwindigkeitsbonus für schnelle Antworten.
+- **Wassermarsch:** Brandbekämpfung auf Zeit. An den Hilfslöschfahrzeugen (HLF) kann Wasser geholt werden, mit dem sich die Brände löschen lassen. Für das Löschen der Brände gibt es Punkte, wobei das Zusammenstoßen mit anderen Spielern zu Minuspunkten und Wasserverlust führt.
+- **Lösch-Quiz:** Im Lösch-Quiz antworten alle Teilnehmenden gleichzeitig auf Wissensfragen rund um Feuerwehr und richtiges Verhalten im Brandfall. Für die korrekte Antwort gibt es Punkte. Außerdem gibt es einen Geschwindigkeitsbonus für schnelle Antworten.
 - **Feuerwehr-Memory:** Zwei Teams treten gegeneinander an, um verdeckte Feuerwehr-Motive auf einem zentralen Spielfeld aufzudecken und durch erfolgreiche Paar-Zuordnungen Punkte zu erzielen. Die Mehrheit des Teams entscheidet darüber, welche zwei Karten aufgedeckt werden.
 - **Schlauchstaffel:** Zwei Teams treten gegeneinander an, um unter Zeitdruck und durch gute Abstimmung gemeinsam Wasser durch einen leckenden Feuerwehrschlauch ans Ziel zu pumpen.
 

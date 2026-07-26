@@ -6,7 +6,7 @@ draft = false
 
 # Nutzertests
 
-## Zur Validierung unserer Spielidee haben wir mehrere Nutzertests durchgeführt
+## Zur Validierung unserer Spielidee haben wir mehrere Nutzertests durchgeführt.
 
 {{<section title="Ziel">}}
 Für die Nutzertests sollten drei zentrale Fragen beantwortet werden:
@@ -37,17 +37,17 @@ An zwei Terminen konnten wir bei der Jugendfeuerwehr Luckenwalde mit insgesamt *
 | Immersion          | 3,49 von 5 |
 | Flow               | 3,13 von 5 |
 
-Die Bewertung der Kinder fiel sehr positiv aus. Besonders der wahrgenommene Spielspaß ist für uns ein großer Erfolg. Auch, dass der Wert der Flow-Kategorie eher im Mittelfeld liegt bewerten wir als Erfolg. Das Ziel des Warteschlangenspiels war es vor allem Zeit zu überbrücken und nicht selbst zur Hauptattraktion zu werden
+Die Bewertung der Kinder fiel sehr positiv aus. Besonders der wahrgenommene Spielspaß ist für uns ein großer Erfolg. Auch, dass der Wert der Flow-Kategorie eher im Mittelfeld liegt, bewerten wir als Erfolg. Das Ziel des Warteschlangenspiels war es vor allem, Zeit zu überbrücken und nicht selbst zur Hauptattraktion zu werden.
 
 {{</section>}}
 
 {{<section title="Beobachtungen">}}
-Was der Fragebogen nicht abbildet, war im Raum deutlich zu hören: viel Gelächter, ein „Ach wie cute!" beim ersten Beta-Test sowie immer wieder die Frage „Können wir noch eine Runde spielen?". Für ein Spiel, dessen einziger Zweck es ist, Wartezeit zu überbrücken, ist diese Frage das eigentliche Ergebnis.
+Was der Fragebogen nicht abbildet, war im Raum deutlich zu hören: viel Gelächter, ein „Ach, wie cute!“ beim ersten Beta-Test sowie immer wieder die Frage „Können wir noch eine Runde spielen?“. Für ein Spiel, dessen einziger Zweck es ist, Wartezeit zu überbrücken, ist diese Frage das eigentliche Ergebnis.
 
 {{</section>}}
 
 {{<section title="Test mit IMI-Studierenden">}}
-Zusätzlich zu den Zielgruppentests konnten wir einen weiteren Tests mit Studierenden aus dem IMI-Studiengang durchführen. Auch hier konnten wir die Interaktionsformen und Stabilität überprüfen.
+Zusätzlich zu den Zielgruppentests konnten wir einen weiteren Test mit Studierenden aus dem IMI-Studiengang durchführen. Auch hier konnten wir die Interaktionsformen und Stabilität überprüfen.
 
 | Kategorie          | Ergebnis   |
 | ------------------ | ---------- |
@@ -55,7 +55,7 @@ Zusätzlich zu den Zielgruppentests konnten wir einen weiteren Tests mit Studier
 | Immersion          | 2,94 von 5 |
 | Flow               | 2,62 von 5 |
 
-Die Werte liegen durchgängig unter denen der Zielgruppe, vor allem wegen der zu dem Zeitpunkt enthaltenen Bugs. Wir zeigen sie trotzdem, weil genau diese Lücke der Ziel des Tests war.
+Die Werte liegen durchgängig unter denen der Zielgruppe, vor allem wegen der zu dem Zeitpunkt enthaltenen Bugs. Wir zeigen sie trotzdem, weil genau diese Lücke das Ziel des Tests war.
 
 {{</section>}}
 

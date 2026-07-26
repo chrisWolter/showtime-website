@@ -96,7 +96,7 @@ Der größte konkrete Spielwunsch: Brandbekämpfung.
 
 Zusätzlich gab es ein paar feste Rahmenbedingungen von unseren Betreuern:
 
-- Keine aktive Internetverbindung nötig (reines Lokales Netz)
+- Keine aktive Internetverbindung nötig (reines lokales Netz)
 - Einfacher Drop-In und Drop-Out für wechselnde Gruppen
 - Geeignet für große Gruppen am Messestand
 
@@ -124,7 +124,7 @@ Wassermarsch hat alle wichtigen Kriterien auf einmal abgedeckt: Es greift den Wu
 {{</section>}}
 
 {{<section title="Phase 4: Wassermarsch v0.0.1">}}
-Die ersten Version stand als klassischer Prototyp: Ein MainScreen für den großen Bildschirm, beliebig viele Smartphones als Controller via QR-Code-Scan, eine funktionierende Game-Loop sowie erste Grafik-Assets und Kollisionen.
+Die erste Version stand als klassischer Prototyp: Ein MainScreen für den großen Bildschirm, beliebig viele Smartphones als Controller via QR-Code-Scan, eine funktionierende Game-Loop sowie erste Grafik-Assets und Kollisionen.
 
 {{</section>}}
 

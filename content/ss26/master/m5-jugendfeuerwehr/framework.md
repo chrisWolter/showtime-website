@@ -112,7 +112,7 @@ flowchart TB
     subgraph SERVER ["<b>GAME SERVER</b>"]
         direction TB
         HTTP["<b>Express HTTP Server</b><br/>• Web-App ausliefern<br/>• Login & Passwort-Prüfung<br/>• Raum-Lookup (4-stelliger Code)"]
-        WS["<b>Colyseus WebSocket Server</b><br/>• Dauerhafte Bi-direktionale Verbindung<br/>• Live-Steuerung (Joystick)<br/>• Synchronisation des Spielstands"]
+        WS["<b>Colyseus WebSocket Server</b><br/>• Dauerhafte bidirektionale Verbindung<br/>• Live-Steuerung (Joystick)<br/>• Synchronisation des Spielstands"]
     end
 
     %% Netzwerk-Verbindungen (HTTP Phase)
@@ -181,7 +181,7 @@ flowchart TB
         end
 
         subgraph BACKEND ["<b>2. Backend (backend/src/games/id/)</b>"]
-            Room["<b>room.ts</b><br/>• Erweitert BaseGameRoom<br/>• Colyseus State Schema<br/>• Physik-, Spiellogik & Tick-Updates<br/>• Event-Handling"]
+            Room["<b>room.ts</b><br/>• Erweitert BaseGameRoom<br/>• Colyseus State Schema<br/>• Physik-, Spiellogik- & Tick-Updates<br/>• Event-Handling"]
         end
 
         subgraph OPTIONAL ["<b>4. Assets (Optional)</b>"]

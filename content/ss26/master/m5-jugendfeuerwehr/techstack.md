@@ -11,7 +11,7 @@ draft = false
 {{<section title="Backend-Entwicklung">}}
 
 - **Node.js**: Serverseitige JavaScript-Laufzeitumgebung
-- **Colyseus**: Multiplayer-Framework für Node.js. Unterstützt u. A. bei Session-Handling, Matchmaking und State-Synchronisation über WebSockets.
+- **Colyseus**: Multiplayer-Framework für Node.js. Unterstützt u. a. bei Session-Handling, Matchmaking und State-Synchronisation über WebSockets.
   {{</section>}}
 
 {{<section title="Frontend-Entwicklung">}}
@@ -24,7 +24,7 @@ draft = false
 
 {{<section title="DevOps">}}
 
-- **GitLab**: Projektmanagement und Source-Code Verwaltung
+- **GitLab**: Projektmanagement und Source-Code-Verwaltung
 - **CI/CD & Docker Registry**: Automatisiertes Überprüfen der Code-Qualität sowie Bauen und Veröffentlichen von Docker-Images in der FKI-Docker-Registry
   {{</section>}}
 
