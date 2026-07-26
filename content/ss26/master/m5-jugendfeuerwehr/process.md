@@ -6,7 +6,7 @@ draft = false
 
 # Der Prozess
 
-## Unser Prozess hat einen Bruch, der sich lohnt zu erzählen: Wir sind mit dem Auftrag gestartet, ein einzigesSpiel zu bauen, und haben uns in der Konzeption bewusst dagegen entschieden.
+## Unsere Aufgabe war es, die Wartezeit am Messestand der Jugendfeuerwehr durch ein Public Game zu verkürzen. Im Laufe der Entwicklung und nach den ersten Praxistests wurde uns jedoch klar, dass darin noch viel mehr Potenzial steckt. Deshalb haben wir aus dem ursprünglichen Spielkonzept ein eigenständiges Framework gebaut, in das sich flexibel neue Minispiele einbinden lassen.
 
 ```mermaid
 flowchart TB
@@ -84,17 +84,19 @@ flowchart TB
 ```
 
 {{<section title="Phase 1: Interviews">}}
-Beim ersten Termin bei der Jugendfeuerwehr Luckenwalde haben wir mit Kindern zwischen 10 und 15 Jahren gesprochen und ihre Wünsche, Vorschläge und Anforderungen aufgenommen.
+Beim ersten Termin bei der Jugendfeuerwehr Luckenwalde haben wir leitfadengeführte Interviews mit kleinen Gruppen von 2 bis 3 Kindern und Jugendlichen (10 bis 15 Jahre) durchgeführt, um ihre Wünsche, Ideen und Anforderungen aufzunehmen.
 
-Drei Erkenntnisse haben das Projekt geprägt:
+Drei Erkenntnisse haben unser Projekt von Beginn an geprägt:
+- **Eigenes Handy vorhanden:** Fast alle Kinder besitzen ein Smartphone. Das hat unseren Bring-Your-Own-Device-Ansatz (BYOD) voll gestützt.
+- **Miteinander statt allein:** Die Kinder wollen gemeinsam oder gegeneinander spielen – reine Singleplayer-Spiele machen auf Dauer wenig Spaß.
+- **Gewohnte Steuerung:** Bedienelemente wie digitale Joysticks kennen die Kinder bereits bestens aus Spielen wie Brawl Stars, Fortnite oder Animal Crossing.
 
-- **Viele Kinder haben ein eigenes Handy.** Das hat unseren BYOD-Ansatz gestützt.
-- **Multiplayer macht Spaß, allein spielen weniger.** Die Kinder sind es Spiele gewohnt in denen sie gegeneinander und miteinander spielen.
-- **Die Kinder kennen Joystick-Steuerung.** Brawl Stars, Fortnite und Animal Crossing
+Der größte konkrete Spielwunsch: Brandbekämpfung.
 
-Konkrete Spielwünsche: Brandbekämpfung, auf Zeit, gegeneinander.
-
-Dazu kamen die Rahmenbedingungen aus der Betreuung: ohne Internet, Drop-In und Drop-Out, große Gruppen sowie Replay-Value.
+Zusätzlich gab es ein paar feste Rahmenbedingungen von unseren Betreuern:
+- Keine aktive Internetverbindung nötig (reines Lokales Netz)
+- Einfacher Drop-In und Drop-Out für wechselnde Gruppen
+- Geeignet für große Gruppen am Messestand
 
 {{</section>}}
 
@@ -104,52 +106,51 @@ Dazu kamen die Rahmenbedingungen aus der Betreuung: ohne Internet, Drop-In und D
 {{</gallery>}}
 
 {{<section title="Phase 2: Recherche">}}
-Wir haben vergleichbare Projekte in Bezug auf Public Games sowie Feuerwehr analysiert: Kahoot, Terra-2042, einen Skribbl.io-Klon, ein Online-Escape-Game zum richtigen Verhalten im Brandfall sowie je zehn Spiele von GamesforCrowds und Gaming Couch.
+Anschließend haben wir vergleichbare Titel im Bereich Public Games sowie Feuerwehr-Spiele analysiert. Dazu gehörten unter anderem Kahoot, Terra-2042, ein Skribbl.io-Klon, ein Online-Escape-Game zur Brandschutzerziehung sowie jeweils zehn Spiele von GamesforCrowds und Gaming Couch.
 
-Parallel haben wir die Interaktionsformen sortiert, die auf einem Smartphone überhaupt zur Verfügung stehen (Gesten, Tippen, Wischen, GPS), und sie gegen das gehalten, was die Kinder aus ihren eigenen Spielen bereits kennen.
+Zeitgleich haben wir verschiedene Interaktionsformen auf Smartphones getestet und bewertet, um herauszufinden, was sich auf dem Touchscreen für ein Messe-Setting am besten anfühlt.
 
 {{</section>}}
 
 {{<section title="Phase 3: Konzeption und die Entscheidung">}}
-Aus Interviews und Recherche sind **11 verschiedene Spielideen** entstanden. Genau an dieser Stelle stand die Entscheidung an, die das Projekt geprägt hat.
-
-Eine der Anforderungen lautete Replay-Value: Die Kinder sollen auch beim dritten Besuch am Stand noch Lust haben. Ein einzelnes Spiel löst das nur begrenzt, denn irgendwann kennt man es. Abwechslung entsteht nicht dadurch, dass ein Spiel größer wird, sondern dadurch, dass es mehrere gibt.
-
-Dazu kam eine zweite Überlegung: Ein Messestand der Jugendfeuerwehr ist nicht der einzige Kontext. Ein Stadtfest, ein Tag der offenen Tür, eine andere Altersgruppe: Überall passt ein anderes Spiel.
-
-Wir haben uns deshalb entschieden, nicht ein Spiel zu bauen, sondern eine Plattform mit einer Spiele-Loop, in die sich beliebige Minispiele einhängen lassen. Aus 11 Ideen wurde damit kein Auswahlproblem mehr, sondern ein Backlog.
+Aus den Interviews und der Recherche sind insgesamt **11 Spielideen** entstanden. Um direkt ins Tun zu kommen und eine erste funktionsfähige Lösung zu haben, haben wir uns für die Umsetzung einer konkreten Idee entschieden: Wassermarsch.
 
 ## Wassermarsch
-
-Wassermarsch haben wir als erstes Spiel ausgewählt, weil es alle Anforderungen auf einmal abdeckt: Brandbekämpfung (der meistgenannte Wunsch), gegeneinander und miteinander, auf Zeit, rundenbasiert und damit messetauglich, viele Spieler gleichzeitig, Drop-In und Drop-Out, Replay-Value durch Verbesserung, und es testet genau die Interaktionsform, die aus den Interviews kam: Joystick plus Button.
+Wassermarsch hat alle wichtigen Kriterien auf einmal abgedeckt: Es greift den Wunsch nach Brandbekämpfung auf, lässt sich kooperativ wie auch kompetitiv spielen, läuft rundenbasiert mit schnellem Drop-In und Drop-Out und testet genau die gewünschte Steuerung per Joystick und Button.
 
 {{</section>}}
 
 {{<section title="Phase 4: Wassermarsch v0.0.1">}}
-Die erste Version stand als klassischer Prototyp: ein MainScreen für den großen Bildschirm, beliebig viele User Devices als Controller, Verbindung über QR-Code, eine funktionierende Game-Loop, erste Assets und Kollisionen.
+Der erste Prototyp stand als klassischer Prototyp: Ein MainScreen für den großen Bildschirm, beliebig viele Smartphones als Controller via QR-Code-Scan, eine funktionierende Game-Loop sowie erste Grafik-Assets und Kollisionen.
 
 {{</section>}}
 
 {{<section title="Phase 5: Beta-Test in Luckenwalde">}}
-Mit v0.0.1 sind wir zurück nach Luckenwalde. Der Test hatte drei Ziele: die Spielidee validieren, die Interaktionsform bestätigen und die Verbindungsstabilität unter realen Bedingungen prüfen.
+Mit der Version v0.0.1 ging es zurück nach Luckenwalde. Wir wollten drei Dinge wissen: Funktioniert die Spielidee? Passt die Steuerung? Und wie stabil läuft die Verbindung unter echten Bedingungen?
 
-Der Beta-Test bestätigte zwar die Spielidee, zeigte jedoch Schwachstellen beim Verbindungsaufbau und Aufklärungsbedarf bei der Steuerung.
+Der Test hat die Spielidee zwar voll bestätigt, zeigte aber auch Schwachstellen: Bei vielen Geräten gab es Verbindungsprobleme, und die Steuerung brauchte noch etwas Erklärung. Als Konsequenz haben wir die Sensor-Toleranz des Joysticks angepasst und das Session-Handling im Backend optimiert, um Verbindungsabbrüche beim Ein- und Aussteigen nahtlos abzufangen.
 
 {{</section>}}
 
 {{<section title="Phase 6: Umstellung auf das Framework">}}
-Die Umstellung nach dem Beta-Test war der aufwendigste Teil des Projekts: Alles, was nicht spezifisch zu Wassermarsch gehört, musste heraus: MainScreen, Device Screen, QR-Verbindung, Session-Handling, Scoring, Timer, Leaderboard, Phasenwechsel.
+Nach dem Beta-Test wurde uns klar: Ein einzelnes Spiel reicht auf Dauer nicht aus. Ein Messestand braucht Abwechslung, damit die Kinder auch beim zweiten oder dritten Besuch wiederkommen. Außerdem passt je nach Event – ob Stadtfest oder Tag der offenen Tür – ein anderes Spiel besser.
 
-Was übrig blieb, war Wassermarsch als reines Spielmodul. Und daneben ein Framework, das alles andere übernimmt.
+Deshalb haben wir den Kurs erweitert: Aus Wassermarsch sollte kein Einzelprojekt bleiben, sondern das erste Modul einer ganzen Plattform werden.
+
+Es folgte die aufwendigste Phase des Projekts: Wir haben Wassermarsch komplett entkoppelt. Alles Generische – QR-Verbindung, Session-Handling, Scoring, Timer, Leaderboard und Screen-Management – haben wir in ein eigenständiges Framework überführt. Wassermarsch wurde damit zum ersten Minispiel-Modul, und aus unseren restlichen 11 Ideen wurde ein Backlog für zukünftige Spiele.
 
 {{</section>}}
 
 {{<section title="Phase 7: Zwei Stränge">}}
-Danach lief die Arbeit zweigleisig: Auf der einen Seite wurden drei weitere Spiele entwickelt, um die Funktionsweise des Framworks zu valdieren. Auf der anderen Seite wurde Wassermarsch weiterentwickelt. Für Version v0.0.2 wurde eine richtige Map sowie weitere Assets erstellt. Zudem wurden Animationen für Punktgewinn und Punktverlust sowie Sterne bei Kollisionen hizugefügt.
+Ab hier lief die Entwicklung zweigleisig:
+
+1. **Entwicklung weiterer Spiele:** Um zu beweisen, dass unser Framework flexibel funktioniert, haben wir drei neue Minispiele entwickelt (Lösch-Quiz, Feuerwehr-Memory und Schlauchstaffel).
+
+2. **Weiterentwicklung von Wassermarsch:** Parallel bekam Wassermarsch in Version v0.0.2 eine richtige Map, neue Assets sowie Animationen für Punktegewinne, Punkteverluste und Kollisionen.
 
 {{</section>}}
 
 {{<section title="Phase 8: Validierung">}}
-Beide Stränge liefen in der Validierung zusammen: das Framework über die drei neuen Spiele, das Spiel über die Nutzertests. Details auf der Testing-Seite.
+In der Validierungsphase liefen beide Stränge wieder zusammen: Das Framework hat sich durch die Einbindung der drei neuen Spiele bewährt, während Wassermarsch und die weiteren Module in Nutzertests auf Herz und Nieren geprüft wurden. Details dazu finden sich auf der Testing-Seite.
 
 {{</section>}}
