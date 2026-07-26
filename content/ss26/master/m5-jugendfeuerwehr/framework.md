@@ -101,29 +101,29 @@ flowchart TB
     %% Nodes & Subgraphs
     subgraph CLIENTS ["<b>LOCAL CLIENTS (WLAN)</b>"]
         direction LR
-        TV["<b>Main Screen (TV / PC)</b><br/>• IP im WLAN (z.B. 192.168.1.50)"]
-        Phone["<b>Smartphone Controller</b><br/>• IP im WLAN (z.B. 192.168.1.100)"]
+        TV["<b>Main Screen (TV / PC)</b><br/>• IP im WLAN "]
+        Phone["<b>Smartphone Controller</b><br/>• IP im WLAN"]
     end
 
     subgraph ROUTER ["<b>NETWORK INFRASTRUCTURE</b>"]
         WLAN["<b>WLAN Access Point</b><br/>• Vermittelt Datenpakete im Netzwerk<br/>• Gateway-Funktion"]
     end
 
-    subgraph SERVER ["<b>GAME SERVER (Port 2567)</b>"]
+    subgraph SERVER ["<b>GAME SERVER</b>"]
         direction TB
-        HTTP["<b>Express HTTP Server</b><br/>• Web-App ausliefern (HTML/JS)<br/>• Login & Passwort-Prüfung<br/>• Raum-Lookup (4-stelliger Code)"]
-        WS["<b>Colyseus WS Server</b><br/>• Dauerhafte Bi-direktionale Verbindung<br/>• Live-Steuerung (Joystick)<br/>• Synchronisation des Spielstands"]
+        HTTP["<b>Express HTTP Server</b><br/>• Web-App ausliefern<br/>• Login & Passwort-Prüfung<br/>• Raum-Lookup (4-stelliger Code)"]
+        WS["<b>Colyseus WebSocket Server</b><br/>• Dauerhafte Bi-direktionale Verbindung<br/>• Live-Steuerung (Joystick)<br/>• Synchronisation des Spielstands"]
     end
 
     %% Netzwerk-Verbindungen (HTTP Phase)
     TV ==>|1a. HTTP: Webseite laden| WLAN
     Phone ==>|1b. HTTP: Controller-Seite laden| WLAN
-    WLAN ==>|"1c. HTTP Anfragen (Port 2567)"| HTTP
+    WLAN ==>|"1c. HTTP Anfragen"| HTTP
 
     %% Netzwerk-Verbindungen (WebSocket Phase)
     TV -. "2a. WebSocket: Host-Verbindung" .-> WLAN
     Phone -. "2b. WebSocket: Spieler-Verbindung" .-> WLAN
-    WLAN -. "2c. WebSocket Traffic (Port 2567)" .-> WS
+    WLAN -. "2c. WebSocket Traffic" .-> WS
 
     %% Class Assignments
     class TV tvScreen;

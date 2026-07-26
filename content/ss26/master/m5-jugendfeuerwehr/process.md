@@ -1,10 +1,10 @@
 +++
-title = "Prozess"
+title = "Der Prozess"
 weight = 10
 draft = false
 +++
 
-# Prozess
+# Der Prozess
 
 ## Unser Prozess hat einen Bruch, der sich lohnt zu erzählen: Wir sind mit dem Auftrag gestartet, ein einzigesSpiel zu bauen, und haben uns in der Konzeption bewusst dagegen entschieden.
 
