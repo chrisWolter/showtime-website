@@ -110,7 +110,7 @@ Zusätzlich gab es ein paar feste Rahmenbedingungen von unseren Betreuern:
 {{<section title="Phase 2: Recherche">}}
 Anschließend haben wir vergleichbare Titel im Bereich Public Games sowie Feuerwehr-Spiele analysiert. Dazu gehörten unter anderem Kahoot, Terra-2042, ein Skribbl.io-Klon, ein Online-Escape-Game zur Brandschutzerziehung sowie jeweils zehn Spiele von GamesforCrowds und Gaming Couch.
 
-Zeitgleich haben wir verschiedene Interaktionsformen auf Smartphones getestet und bewertet, um herauszufinden, was sich auf dem Touchscreen für ein Messe-Setting am besten anfühlt.
+Parallel dazu haben wir mögliche Interaktionsformen auf dem Smartphone evaluiert und in ersten Prototyping-Ansätzen erprobt. Dabei untersuchten wir unter anderem die Einbindung virtueller Joysticks für ein vertrautes Controller-Gefühl, den Zugriff auf Gyroskop-Sensoren zur Bewegungssteuerung sowie auditives Feedback. Ziel war es, die Bedienung für das Messe-Setting so intuitiv wie möglich zu gestalten.
 
 {{</section>}}
 

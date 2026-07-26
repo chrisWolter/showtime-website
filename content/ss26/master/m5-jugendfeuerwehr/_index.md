@@ -2,7 +2,7 @@
 project_id = "M5"
 title = "ResQ: BYOD Public Game Framework"
 subtitle = "Lokaler Multiplayer für die Warteschlange am Messestand der Jugendfeuerwehr."
-claim = "Eine Spieleplattform für die Warteschlange am Messestand der Jugendfeuerwehr. Direkt im mobilen Browser. Keine App, kein Stress."
+claim = "Macht Wartezeit zur Spielzeit: Direkt im mobilen Browser. Keine App, kein Stress."
 
 card_image = "assets/resq_logo.webp"
 
