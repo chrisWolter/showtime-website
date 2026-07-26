@@ -37,7 +37,7 @@ An zwei Terminen konnten wir bei der Jugendfeuerwehr Luckenwalde mit insgesamt *
 | Immersion          | 3,49 von 5 |
 | Flow               | 3,13 von 5 |
 
-Die Bewertung der Kinder fiel sehr positiv auf. Besonders der wahrgenommene Spielspaß ist für uns ein großer Erfolg. Auch, dass der Wert der Flow-Kategorie eher im Mittelfeld liegt bewerten wir als Erfolg. Das Ziel des Warteschlangenspiels war es vor allem Zeit zu überbrücken und nicht selbst zur Hauptattraktion zu werden
+Die Bewertung der Kinder fiel sehr positiv aus. Besonders der wahrgenommene Spielspaß ist für uns ein großer Erfolg. Auch, dass der Wert der Flow-Kategorie eher im Mittelfeld liegt bewerten wir als Erfolg. Das Ziel des Warteschlangenspiels war es vor allem Zeit zu überbrücken und nicht selbst zur Hauptattraktion zu werden
 
 {{</section>}}
 
