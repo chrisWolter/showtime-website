@@ -32,14 +32,14 @@ flowchart TB
         F["<b>Wassermarsch v0.0.1</b><br/>• Erstes Spiel als Prototyp"]
         G["<b>1. Nutzer-Test</b><br/>• Erprobung bei der Jugendfeuerwehr"]
         H["<b>Entwicklung Framework</b><br/>• Basis-Architektur aufbauen"]
-        
+
         I["<b>Entwicklung weitere Spiele</b><br/>• Lösch-Quiz<br/>• Feuerwehr-Memory<br/>• Schlauchstaffel"]
         J["<b>Wassermarsch v0.0.2</b><br/>• Weiterentwicklung Spiel 1"]
-        
+
         N["<b>Validierung des Frameworks</b><br/>• Überprüfung der Modul-Architektur"]
         L["<b>2. Nutzer-Test</b><br/>• Feedback von IMI-Studierenden"]
-        M["<b>3. Nutzer-Test</b><br/>• Iteration bei der Jugendfeuerwehr"]
-        
+        M["<b>3. Nutzer-Test</b><br/>• Erneute Erprobung bei der Jugendfeuerwehr"]
+
         Q["<b>Wassermarsch v0.0.3</b><br/>• Finale Überarbeitung Spiel 1"]
         O["<b>Stand heute</b><br/>• ResQ-Framework mit vier fertigen Spielen"]
         P["<b>Ausblick</b><br/>• Neue Spiele einfach andocken"]
@@ -87,13 +87,15 @@ flowchart TB
 Beim ersten Termin bei der Jugendfeuerwehr Luckenwalde haben wir leitfadengeführte Interviews mit kleinen Gruppen von 2 bis 3 Kindern und Jugendlichen (10 bis 15 Jahre) durchgeführt, um ihre Wünsche, Ideen und Anforderungen aufzunehmen.
 
 Drei Erkenntnisse haben unser Projekt von Beginn an geprägt:
-- **Eigenes Handy vorhanden:** Fast alle Kinder besitzen ein Smartphone. Das hat unseren Bring-Your-Own-Device-Ansatz (BYOD) voll gestützt.
+
+- **Eigenes Handy vorhanden:** Fast alle Kinder besitzen ein Smartphone. Das hat unseren Bring-Your-Own-Device-Ansatz (BYOD) gestützt.
 - **Miteinander statt allein:** Die Kinder wollen gemeinsam oder gegeneinander spielen – reine Singleplayer-Spiele machen auf Dauer wenig Spaß.
 - **Gewohnte Steuerung:** Bedienelemente wie digitale Joysticks kennen die Kinder bereits bestens aus Spielen wie Brawl Stars, Fortnite oder Animal Crossing.
 
 Der größte konkrete Spielwunsch: Brandbekämpfung.
 
 Zusätzlich gab es ein paar feste Rahmenbedingungen von unseren Betreuern:
+
 - Keine aktive Internetverbindung nötig (reines Lokales Netz)
 - Einfacher Drop-In und Drop-Out für wechselnde Gruppen
 - Geeignet für große Gruppen am Messestand
@@ -116,12 +118,13 @@ Zeitgleich haben wir verschiedene Interaktionsformen auf Smartphones getestet un
 Aus den Interviews und der Recherche sind insgesamt **11 Spielideen** entstanden. Um direkt ins Tun zu kommen und eine erste funktionsfähige Lösung zu haben, haben wir uns für die Umsetzung einer konkreten Idee entschieden: Wassermarsch.
 
 ## Wassermarsch
+
 Wassermarsch hat alle wichtigen Kriterien auf einmal abgedeckt: Es greift den Wunsch nach Brandbekämpfung auf, lässt sich kooperativ wie auch kompetitiv spielen, läuft rundenbasiert mit schnellem Drop-In und Drop-Out und testet genau die gewünschte Steuerung per Joystick und Button.
 
 {{</section>}}
 
 {{<section title="Phase 4: Wassermarsch v0.0.1">}}
-Der erste Prototyp stand als klassischer Prototyp: Ein MainScreen für den großen Bildschirm, beliebig viele Smartphones als Controller via QR-Code-Scan, eine funktionierende Game-Loop sowie erste Grafik-Assets und Kollisionen.
+Die ersten Version stand als klassischer Prototyp: Ein MainScreen für den großen Bildschirm, beliebig viele Smartphones als Controller via QR-Code-Scan, eine funktionierende Game-Loop sowie erste Grafik-Assets und Kollisionen.
 
 {{</section>}}
 
