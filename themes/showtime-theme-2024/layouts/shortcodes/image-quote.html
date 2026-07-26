@@ -1,0 +1,22 @@
+{{ $image := newScratch }}
+{{ if $.Page.Resources.GetMatch (.Get "src") }}
+    {{ $image.Set "src" ($.Page.Resources.GetMatch (.Get "src")) }}
+{{ else }}
+    {{ $image.Set "src" ($.Page.Parent.Resources.GetMatch (.Get "src")) }}
+{{ end }}
+{{ $image.Set "alt" (.Get "alt") }}
+{{ $image.Set "caption" (.Get "caption") }}
+
+<div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
+  <div style="flex-shrink: 0;">
+<figure>
+<img src="{{ ($image.Get "src").RelPermalink }}" alt="{{ $image.Get "alt" }}">
+{{ with $image.Get "caption" }}
+<figcaption>{{ . }}</figcaption>
+{{ end }}
+</figure>
+  </div>
+  <div style="flex: 1; min-width: 250px;">
+{{ .Inner | markdownify }}
+  </div>
+</div>
