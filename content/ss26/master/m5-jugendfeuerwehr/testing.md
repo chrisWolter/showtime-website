@@ -61,7 +61,7 @@ Die Werte liegen durchgängig unter denen der Zielgruppe, vor allem wegen der zu
 
 {{<section title="Stimmen">}}
 
-{{<image src="assets/andre.webp" alt="Berufsfeuerwehrmann Andre" caption="André, Berufsfeuerwehrmann bei der Feuerwehr Luckenwalde und unsere Ansprechperson vor Ort">}}
+{{<image src="assets/andre.webp" alt="Feuerwehrmann Andre" caption="André, Feuerwehrmann bei der Freiwilligen Feuerwehr Luckenwalde und unsere Ansprechperson vor Ort">}}
 
 > „Ich selbst konnte dem Ereignis als passive Person zusehen und war davon begeistert. Weiter so und gerne noch etwas mehr von solchen tollen Spielen."
 
