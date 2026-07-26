@@ -55,7 +55,7 @@ Zusätzlich zu den Zielgruppentests konnten wir einen weiteren Test mit Studiere
 | Immersion          | 2,94 von 5 |
 | Flow               | 2,62 von 5 |
 
-Die Werte liegen durchgängig unter denen der Zielgruppe, vor allem wegen der zu dem Zeitpunkt enthaltenen Bugs. Wir zeigen sie trotzdem, weil genau diese Lücke das Ziel des Tests war.
+Die Werte liegen durchgängig unter denen der Zielgruppe, vor allem wegen der zu dem Zeitpunkt enthaltenen Bugs.
 
 {{</section>}}
 
