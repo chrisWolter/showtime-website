@@ -53,7 +53,7 @@ Das Kernstück des Projekts bildet eine plattformunabhängige Systemarchitektur 
 Um die Bandbreite und Flexibilität des Frameworks direkt in der Praxis zu zeigen, wurden insgesamt vier unterschiedliche Spielmodule umgesetzt:
 
 - **Wassermarsch:** Brandbekämpfung auf Zeit. An den Hilfslöschfahrzeugen (HLF) kann Wasser geholt werden mit dem sich die Brände löschen lassen. Für das Löschen der Brände gibt es Punkte, wobei das Zusammenstoßen mit anderen Spielern zu Minuspunkten und Wasserverlust führt.
-- **Lösch-Quiz:** Im Löschquiz antworten alle Teilnehmenden gleichzeitig auf Wissensfragen rund um Feuerwehr und richtiges Verhalten im Brandfall. Für die korrekte Antort gibt es Punkte. Außerdem gibt es einen Geschwindgkeitsbonus für schnelle Antoweten.
+- **Lösch-Quiz:** Im Löschquiz antworten alle Teilnehmenden gleichzeitig auf Wissensfragen rund um Feuerwehr und richtiges Verhalten im Brandfall. Für die korrekte Antwort gibt es Punkte. Außerdem gibt es einen Geschwindigkeitsbonus für schnelle Antworten.
 - **Feuerwehr-Memory:** Zwei Teams treten gegeneinander an, um verdeckte Feuerwehr-Motive auf einem zentralen Spielfeld aufzudecken und durch erfolgreiche Paar-Zuordnungen Punkte zu erzielen. Die Mehrheit des Teams entscheidet darüber, welche zwei Karten aufgedeckt werden.
 - **Schlauchstaffel:** Zwei Teams treten gegeneinander an, um unter Zeitdruck und durch gute Abstimmung gemeinsam Wasser durch einen leckenden Feuerwehrschlauch ans Ziel zu pumpen.
 
