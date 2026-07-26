@@ -7,6 +7,54 @@ draft = false
 # Das Framework
 ## ResQ nimmt einem Spiel alles ab, was nichts mit dem Spiel zu tun hat.
 
+```mermaid
+flowchart TB
+    %% Visual Theme & Styles
+    classDef tvScreen fill:#1e293b,stroke:#00f2fe,stroke-width:2px,color:#ffffff,rx:6px,ry:6px;
+    classDef mobileController fill:#1e293b,stroke:#ff7a00,stroke-width:2px,color:#ffffff,rx:6px,ry:6px;
+    classDef backendServer fill:#1e293b,stroke:#0066ff,stroke-width:2px,color:#ffffff,rx:6px,ry:6px;
+    classDef dataState fill:#1e293b,stroke:#00e676,stroke-width:2px,color:#ffffff,rx:6px,ry:6px;
+
+    %% Subgraph Styling (Transparent)
+    style CLIENTS fill:none,stroke:#475569,stroke-width:1.5px,color:#3e2d4a,rx:8px;
+    style SERVER fill:none,stroke:#475569,stroke-width:1.5px,color:#3e2d4a,rx:8px;
+    style DATA fill:none,stroke:#475569,stroke-width:1.5px,color:#3e2d4a,rx:8px;
+
+    %% Nodes & Subgraphs
+    subgraph CLIENTS ["<b>FRONTEND CLIENTS</b>"]
+        direction TB
+        MainScreen["<b>Main Screen (TV / Host)</b><br/>• Zeigt das Spiel & Bestenliste<br/>• Zeigt Raum-Code & QR-Code"]
+        DeviceScreen["<b>Smartphone (Controller)</b><br/>• Virtueller Joystick & Buttons<br/>• Sendet Bewegung & Aktionen"]
+    end
+
+    subgraph SERVER ["<b>BACKEND ENGINE</b>"]
+        GameRoom["<b>Game Room & Logik</b><br/>• Generiert 4-stelligen Raum-Code<br/>• Verarbeitet Spieler-Eingaben<br/>• Berechnet Spielregeln & Kollisionen"]
+    end
+
+    subgraph DATA ["<b>STATE MANAGEMENT</b>"]
+        GameState["<b>BaseRoomState (Shared Data)</b><br/>• Spieler-Positionen & Punkte<br/>• Restzeit & Spielphase"]
+    end
+
+    %% Data Flow Connections
+    DeviceScreen ==>|1. Steuerung senden| GameRoom
+    MainScreen ==>|2. Host-Verbindung| GameRoom
+    
+    GameRoom -->|3. Zustand aktualisieren| GameState
+    GameState -. "4. Live-Sync auf TV" .-> MainScreen
+
+    %% Class Assignments
+    class MainScreen tvScreen;
+    class DeviceScreen mobileController;
+    class GameRoom backendServer;
+    class GameState dataState;
+
+    %% Link Styling
+    linkStyle 0 stroke:#ff7a00,stroke-width:2px;
+    linkStyle 1 stroke:#00f2fe,stroke-width:2px;
+    linkStyle 2 stroke:#0066ff,stroke-width:2px;
+    linkStyle 3 stroke:#00e676,stroke-width:2px,stroke-dasharray: 4 4;
+```
+
 {{<section title="Was das Framework übernimmt">}}
 ## Session & Verbindung
 
@@ -36,94 +84,46 @@ draft = false
 
 {{</section>}}
 
-## Das Framework
-```mermaid
-flowchart TB
-    %% Visual Theme & Styles
-    classDef tvScreen fill:#1e293b,stroke:#06b6d4,stroke-width:2px,color:#f8fafc,rx:8px,ry:8px;
-    classDef mobileController fill:#1e293b,stroke:#a855f7,stroke-width:2px,color:#f8fafc,rx:8px,ry:8px;
-    classDef backendServer fill:#1e293b,stroke:#3b82f6,stroke-width:2px,color:#f8fafc,rx:8px,ry:8px;
-    classDef dataState fill:#1e293b,stroke:#f59e0b,stroke-width:2px,color:#f8fafc,rx:8px,ry:8px;
-
-    %% Subgraph Styling
-    style CLIENTS fill:#0f172a,stroke:#334155,stroke-width:1.5px,color:#94a3b8,rx:12px;
-    style SERVER fill:#0f172a,stroke:#334155,stroke-width:1.5px,color:#94a3b8,rx:12px;
-    style DATA fill:#0f172a,stroke:#334155,stroke-width:1.5px,color:#94a3b8,rx:12px;
-
-    %% Nodes & Subgraphs
-    subgraph CLIENTS ["<b>FRONTEND CLIENTS</b>"]
-        MainScreen["<b>Main Screen (TV / Host)</b><br/>• Zeigt das Spiel & Bestenliste<br/>• Zeigt Raum-Code & QR-Code"]
-        DeviceScreen["<b>Smartphone (Controller)</b><br/>• Virtueller Joystick & Buttons<br/>• Sendet Bewegung & Aktionen"]
-    end
-
-    subgraph SERVER ["<b>BACKEND ENGINE</b>"]
-        GameRoom["<b>Game Room & Logik</b><br/>• Generiert 4-stelligen Raum-Code<br/>• Verarbeitet Spieler-Eingaben<br/>• Berechnet Spielregeln & Kollisionen"]
-    end
-
-    subgraph DATA ["<b>STATE MANAGEMENT</b>"]
-        GameState["<b>RoomState (Shared Data)</b><br/>• Spieler-Positionen & Punkte<br/>• Restzeit & Spielphase"]
-    end
-
-    %% Data Flow Connections
-    DeviceScreen ==>|1. Steuerung senden| GameRoom
-    MainScreen ==>|2. Host-Verbindung| GameRoom
-    
-    GameRoom -->|3. Zustand aktualisieren| GameState
-    GameState -. "4. Live-Sync auf TV" .-> MainScreen
-
-    %% Class Assignments
-    class MainScreen tvScreen;
-    class DeviceScreen mobileController;
-    class GameRoom backendServer;
-    class GameState dataState;
-
-    %% Link Styling
-    linkStyle 0 stroke:#a855f7,stroke-width:2px;
-    linkStyle 1 stroke:#06b6d4,stroke-width:2px;
-    linkStyle 2 stroke:#3b82f6,stroke-width:2px;
-    linkStyle 3 stroke:#f59e0b,stroke-width:2px,stroke-dasharray: 4 4;
-```
-
-## Das Netzwerk
+### Das Netzwerk
 ```mermaid
 flowchart TB
     %% Visuelle Themes & Styles
-    classDef tvScreen fill:#1e293b,stroke:#06b6d4,stroke-width:2px,color:#f8fafc,rx:8px,ry:8px;
-    classDef mobileController fill:#1e293b,stroke:#a855f7,stroke-width:2px,color:#f8fafc,rx:8px,ry:8px;
-    classDef networkNode fill:#1e293b,stroke:#f59e0b,stroke-width:2px,color:#f8fafc,rx:8px,ry:8px;
-    classDef serverProcess fill:#1e293b,stroke:#3b82f6,stroke-width:2px,color:#f8fafc,rx:8px,ry:8px;
+    classDef tvScreen fill:#1e293b,stroke:#00f2fe,stroke-width:2px,color:#ffffff,rx:6px,ry:6px;
+    classDef mobileController fill:#1e293b,stroke:#ff7a00,stroke-width:2px,color:#ffffff,rx:6px,ry:6px;
+    classDef networkNode fill:#1e293b,stroke:#ffc107,stroke-width:2px,color:#ffffff,rx:6px,ry:6px;
+    classDef serverProcess fill:#1e293b,stroke:#0066ff,stroke-width:2px,color:#ffffff,rx:6px,ry:6px;
 
-    %% Subgraph Styling
-    style CLIENTS fill:#0f172a,stroke:#334155,stroke-width:1.5px,color:#94a3b8,rx:12px;
-    style ROUTER fill:#0f172a,stroke:#334155,stroke-width:1.5px,color:#94a3b8,rx:12px;
-    style SERVER fill:#0f172a,stroke:#334155,stroke-width:1.5px,color:#94a3b8,rx:12px;
+    %% Subgraph Styling (Transparent)
+    style CLIENTS fill:none,stroke:#475569,stroke-width:1.5px,color:#3e2d4a,rx:8px;
+    style ROUTER fill:none,stroke:#475569,stroke-width:1.5px,color:#3e2d4a,rx:8px;
+    style SERVER fill:none,stroke:#475569,stroke-width:1.5px,color:#3e2d4a,rx:8px;
 
     %% Nodes & Subgraphs
     subgraph CLIENTS ["<b>LOCAL CLIENTS (WLAN)</b>"]
-        direction TB
-        TV["<b>Main Screen (TV / PC)</b><br/>• IP im WLAN"]
-        Phone["<b>Smartphone Controller</b><br/>• IP im WLAN"]
+        direction LR
+        TV["<b>Main Screen (TV / PC)</b><br/>• IP im WLAN (z.B. 192.168.1.50)"]
+        Phone["<b>Smartphone Controller</b><br/>• IP im WLAN (z.B. 192.168.1.100)"]
     end
 
     subgraph ROUTER ["<b>NETWORK INFRASTRUCTURE</b>"]
         WLAN["<b>WLAN Access Point</b><br/>• Vermittelt Datenpakete im Netzwerk<br/>• Gateway-Funktion"]
     end
 
-    subgraph SERVER ["<b>GAME SERVER</b>"]
+    subgraph SERVER ["<b>GAME SERVER (Port 2567)</b>"]
         direction TB
-        HTTP["<b>Express HTTP Server</b><br/>• Web-App ausliefern<br/>• Login & Passwort-Prüfung<br/>• Raum-Lookup (4-stelliger Code)"]
-        WS["<b>Colyseus WebSocket Server</b><br/>• Dauerhafte Bi-direktionale Verbindung<br/>• Live-Steuerung (Joystick)<br/>• Synchronisation des Spielstands"]
+        HTTP["<b>Express HTTP Server</b><br/>• Web-App ausliefern (HTML/JS)<br/>• Login & Passwort-Prüfung<br/>• Raum-Lookup (4-stelliger Code)"]
+        WS["<b>Colyseus WS Server</b><br/>• Dauerhafte Bi-direktionale Verbindung<br/>• Live-Steuerung (Joystick)<br/>• Synchronisation des Spielstands"]
     end
 
     %% Netzwerk-Verbindungen (HTTP Phase)
     TV ==>|1a. HTTP: Webseite laden| WLAN
     Phone ==>|1b. HTTP: Controller-Seite laden| WLAN
-    WLAN ==>|"1c. HTTP Anfragen"| HTTP
+    WLAN ==>|"1c. HTTP Anfragen (Port 2567)"| HTTP
 
     %% Netzwerk-Verbindungen (WebSocket Phase)
     TV -. "2a. WebSocket: Host-Verbindung" .-> WLAN
     Phone -. "2b. WebSocket: Spieler-Verbindung" .-> WLAN
-    WLAN -. "2c. WebSocket Traffic" .-> WS
+    WLAN -. "2c. WebSocket Traffic (Port 2567)" .-> WS
 
     %% Class Assignments
     class TV tvScreen;
@@ -135,9 +135,9 @@ flowchart TB
     linkStyle 0 stroke:#94a3b8,stroke-width:2px;
     linkStyle 1 stroke:#94a3b8,stroke-width:2px;
     linkStyle 2 stroke:#94a3b8,stroke-width:2px;
-    linkStyle 3 stroke:#06b6d4,stroke-width:2px,stroke-dasharray: 4 4;
-    linkStyle 4 stroke:#a855f7,stroke-width:2px,stroke-dasharray: 4 4;
-    linkStyle 5 stroke:#3b82f6,stroke-width:2px,stroke-dasharray: 4 4;
+    linkStyle 3 stroke:#00f2fe,stroke-width:2px,stroke-dasharray: 4 4;
+    linkStyle 4 stroke:#ff7a00,stroke-width:2px,stroke-dasharray: 4 4;
+    linkStyle 5 stroke:#0066ff,stroke-width:2px,stroke-dasharray: 4 4;
 ```
 
 {{<section title="Was ein Spielmodul liefert">}}
@@ -156,17 +156,17 @@ Und natürlich noch Assets, falls hier ein spezielleres Spiel gebaut wird.
 ```mermaid
 flowchart TB
     %% Visuelle Themes & Styles
-    classDef manifestNode fill:#1e293b,stroke:#06b6d4,stroke-width:2px,color:#f8fafc,rx:8px,ry:8px;
-    classDef roomNode fill:#1e293b,stroke:#3b82f6,stroke-width:2px,color:#f8fafc,rx:8px,ry:8px;
-    classDef configNode fill:#1e293b,stroke:#a855f7,stroke-width:2px,color:#f8fafc,rx:8px,ry:8px;
-    classDef assetsNode fill:#1e293b,stroke:#f59e0b,stroke-width:2px,color:#f8fafc,rx:8px,ry:8px;
+    classDef manifestNode fill:#1e293b,stroke:#00f2fe,stroke-width:2px,color:#ffffff,rx:6px,ry:6px;
+    classDef roomNode fill:#1e293b,stroke:#0066ff,stroke-width:2px,color:#ffffff,rx:6px,ry:6px;
+    classDef configNode fill:#1e293b,stroke:#ff7a00,stroke-width:2px,color:#ffffff,rx:6px,ry:6px;
+    classDef assetsNode fill:#1e293b,stroke:#ffc107,stroke-width:2px,color:#ffffff,rx:6px,ry:6px;
 
-    %% Subgraph Styling
-    style MODULE fill:#0f172a,stroke:#334155,stroke-width:1.5px,color:#94a3b8,rx:12px;
-    style FRONTEND fill:#0f172a,stroke:#1e293b,stroke-width:1.5px,color:#64748b,rx:8px;
-    style BACKEND fill:#0f172a,stroke:#1e293b,stroke-width:1.5px,color:#64748b,rx:8px;
-    style SHARED fill:#0f172a,stroke:#1e293b,stroke-width:1.5px,color:#64748b,rx:8px;
-    style OPTIONAL fill:#0f172a,stroke:#1e293b,stroke-width:1.5px,color:#64748b,rx:8px;
+    %% Subgraph Styling (Transparent)
+    style MODULE fill:none,stroke:#475569,stroke-width:1.5px,color:#3e2d4a,rx:8px;
+    style FRONTEND fill:none,stroke:#334155,stroke-width:1px,color:#64748b,rx:6px;
+    style BACKEND fill:none,stroke:#334155,stroke-width:1px,color:#64748b,rx:6px;
+    style SHARED fill:none,stroke:#334155,stroke-width:1px,color:#64748b,rx:6px;
+    style OPTIONAL fill:none,stroke:#334155,stroke-width:1px,color:#64748b,rx:6px;
 
     %% Nodes & Subgraphs
     subgraph MODULE ["<b>SPIELMODUL ARCHITEKTUR</b>"]
@@ -201,10 +201,10 @@ flowchart TB
     class Config configNode;
     class Assets assetsNode;
 
-    %% Link Styling (Passend zu den Akzentfarben)
-    linkStyle 0 stroke:#a855f7,stroke-width:2px,stroke-dasharray: 4 4;
-    linkStyle 1 stroke:#a855f7,stroke-width:2px,stroke-dasharray: 4 4;
-    linkStyle 2 stroke:#f59e0b,stroke-width:2px,stroke-dasharray: 4 4;
+    %% Link Styling
+    linkStyle 0 stroke:#ff7a00,stroke-width:2px,stroke-dasharray: 4 4;
+    linkStyle 1 stroke:#ff7a00,stroke-width:2px,stroke-dasharray: 4 4;
+    linkStyle 2 stroke:#ffc107,stroke-width:2px,stroke-dasharray: 4 4;
 ```
 
 
