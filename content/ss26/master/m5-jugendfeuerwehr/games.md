@@ -24,3 +24,4 @@ Im Löschquiz antworten alle Teilnehmenden gleichzeitig auf Wissensfragen rund u
 # Schlauchstaffel
 
 Zwei Teams treten gegeneinander an und müssen gemeinsam Wasser durch einen leckenden Schlauch pumpen
+{{<mediathek id="ec6be13add2e5f8c0049c7f127fcd86a">}}
