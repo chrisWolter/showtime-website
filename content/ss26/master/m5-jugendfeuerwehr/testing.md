@@ -6,7 +6,7 @@ draft = false
 
 # Nutzertests
 
-## Zur Validierung unser Spielidee haben wir mehrere Nutzertests durchgeführt
+## Zur Validierung unserer Spielidee haben wir mehrere Nutzertests durchgeführt
 
 {{<section title="Ziel">}}
 Für die Nutzertests sollten drei zentrale Fragen beantwortet werden:
